@@ -7654,11 +7654,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\eshop_MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\eshop_MVC.csproj",
       "projectName": "eshop_MVC",
-      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\eshop_MVC.csproj",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\eshop_MVC.csproj",
       "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\obj\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",

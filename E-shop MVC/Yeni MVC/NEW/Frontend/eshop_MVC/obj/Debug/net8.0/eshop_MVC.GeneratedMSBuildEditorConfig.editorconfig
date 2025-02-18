@@ -9,251 +9,251 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eshop_MVC
 build_property.RootNamespace = eshop_MVC
-build_property.ProjectDir = C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop MVC\Yeni MVC\NEW\Frontend\eshop_MVC\
+build_property.ProjectDir = C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop MVC\Yeni MVC\NEW\Frontend\eshop_MVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop MVC\Yeni MVC\NEW\Frontend\eshop_MVC
+build_property.MSBuildProjectDirectory = C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop MVC\Yeni MVC\NEW\Frontend\eshop_MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Category/Create.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Category/Delete.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Category/Edit.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Category/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Comment/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Comment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Coupon/CreateCoupon.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Coupon/CreateCoupon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ291cG9uXENyZWF0ZUNvdXBvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Coupon/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Coupon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ291cG9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Message/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Message/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Order/Delete.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Order/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Order/Details.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Order/Edit.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Order/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Order/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Create.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Delete.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Details.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Edit.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/GetAllFalse.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/GetAllFalse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxHZXRBbGxGYWxzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Settings/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Settings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Settings/Update.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Settings/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ3NcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Users/DeleteUser.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Users/DeleteUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRGVsZXRlVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Users/GetUserDetails.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Users/GetUserDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcR2V0VXNlckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Users/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/About/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Auth/AccessDenied.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Auth/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Auth/Login.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Auth/Register.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Basket/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Basket/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Category/GetAllByCategory.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Category/GetAllByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsQnlDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Contact/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Home/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/Details.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/GerOrderByStatus.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/GerOrderByStatus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcR2VyT3JkZXJCeVN0YXR1cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/GetDeliveredOrders.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/GetDeliveredOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcR2V0RGVsaXZlcmVkT3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/GetOrdersByDateRange.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/GetOrdersByDateRange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcR2V0T3JkZXJzQnlEYXRlUmFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/GetShippedOrders.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/GetShippedOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcR2V0U2hpcHBlZE9yZGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Payment/Checkout.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Payment/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Product/Details.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Product/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/Components/FooterLogo/Default.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/Components/FooterLogo/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyTG9nb1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/Components/FooterText/Default.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/Components/FooterText/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyVGV4dFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/Components/Logo/Default.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/Components/Logo/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9nb1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/Error.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_FooterPartial.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_HeaderPartial.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_MainHeaderPartial.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_MainHeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluSGVhZGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_PreloaderEndPartial.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_PreloaderEndPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QcmVsb2FkZXJFbmRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_scriptPartial.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_scriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zY3JpcHRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_StylesPartialHead.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_StylesPartialHead.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHlsZXNQYXJ0aWFsSGVhZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/User/Index.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/User/Update.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/User/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/_ViewImports.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/_ViewStart.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Casper/Documents/GitHub/E-Shop-Project/Projet-MVC-APİ/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_Layout.cshtml]
+[C:/Users/Casper/Documents/GitHub/Eshop-Project--Asaf-Udurgucu/E-shop MVC/Yeni MVC/NEW/Frontend/eshop_MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-m5xnqy6mxc
