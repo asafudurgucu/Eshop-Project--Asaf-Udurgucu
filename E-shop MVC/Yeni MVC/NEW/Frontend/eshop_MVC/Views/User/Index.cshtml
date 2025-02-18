@@ -1,0 +1,160 @@
+﻿@using eshop_MVC.Helpers
+@model UserProfileModel
+
+@{
+    ViewData["Title"] = "Hesap Bilgileri";
+}
+<br />
+<br />
+<br />
+<h1 class="text-center mt-5">Hesap Bilgileri</h1>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header"><i class="bi bi-person"></i> Hesap Bilgileri</div>
+                <div class="card-body">
+                    <div class="profile-header text-center">
+                        <div class="profile-container">
+                            @if (Model.ProfilePictureUrl == null)
+                            {
+                                <h4>Profil Fotoğrafı yok</h4>
+                            }
+                            else
+                            {
+                                <img src="http://localhost:5051/@Model.ProfilePictureUrl" alt="Profil Fotoğrafı" class="profile-picture img-fluid" id="profilePicture" />
+                            }
+                            <div class="camera-icon" onclick="document.getElementById('fileInput').click();">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <input type="file" id="fileInput" accept="image/*" onchange="uploadProfilePicture()" />
+                        <br />
+                        <br />
+
+                        <div class="info-group">
+                            <label for="firstName">İsim</label>
+                            <input type="text" class="form-control" id="firstName" value="@Model.FirstName" readonly />
+                        </div>
+                        <div class="info-group">
+                            <label for="lastName">Soyisim</label>
+                            <input type="text" class="form-control" id="lastName" value="@Model.LastName" readonly />
+                        </div>
+                        <div class="info-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" value="@Model.Email" readonly />
+                        </div>
+                        <div class="info-group">
+                            <label for="address">Adres Bilgileri</label>
+                            <textarea class="form-control" id="address" readonly>@Model.Address</textarea>
+                        </div>
+                        <div class="info-group">
+                            <label for="city">Şehir</label>
+                            <input type="text" class="form-control" id="city" value="@Model.City" readonly />
+                        </div>
+                        <div class="info-group">
+                            <label for="dateOfBirth">Doğum Tarihi</label>
+                            <input type="text" class="form-control" id="dateOfBirth" value="@Model.DateOfBirth.ToString("dd/MM/yyyy")" readonly />
+                        </div>
+                        <a href="User/Update" class="btn btn-primary mt-3 d-block mx-auto">Bilgileri Güncelle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function uploadProfilePicture() {
+        var fileInput = document.getElementById('fileInput');
+        var file = fileInput.files[0];
+
+        if (!file) return;
+
+        var formData = new FormData();
+        formData.append("ProfilePictureUrl", file);
+
+        fetch('/User/UpdateProfilePicture', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'multipart/form-data'
+            }
+        })
+            .then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert("Profil fotoğrafı güncellenirken bir hata oluştu.");
+                }
+            })
+            .catch(error => {
+                console.error("Hata:", error);
+            });
+    }
+</script>
+
+<style>
+    .profile-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: opacity 0.3s ease;
+    }
+
+    .camera-icon {
+        position: absolute;
+        right: 2px;
+        background: transparent;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        z-index: 2;
+        width: 30px;
+        height: 30px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .camera-icon i {
+            color: black;
+            font-size: 16px;
+        }
+
+    #fileInput {
+        display: none;
+    }
+
+    .info-group {
+        margin-bottom: 10px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-update {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-update:hover {
+            background-color: #0056b3;
+        }
+</style>

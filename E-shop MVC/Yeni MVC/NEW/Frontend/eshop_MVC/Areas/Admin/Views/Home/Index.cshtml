@@ -1,0 +1,179 @@
+﻿@{
+    ViewBag.Title = "Admin - Dashboard";
+    var totalOrderCount = ViewBag.TotalOrderCount;
+    var orderCountByStatus = ViewBag.OrderCountByStatus;
+    var messageCount = ViewBag.MessageCount;
+    var productCount = ViewBag.ProductCount;
+    var userCount = ViewBag.UserCount;
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .dashboard-card {
+        margin: 15px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #495057;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #343a40;
+    }
+
+    .fa-icon {
+        font-size: 40px;
+        margin-bottom: 15px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .bg-primary {
+        background-color: #007bff !important;
+    }
+
+    .bg-success {
+        background-color: #28a745 !important;
+    }
+
+    .bg-warning {
+        background-color: #ffc107 !important;
+    }
+
+    .bg-info {
+        background-color: #17a2b8 !important;
+    }
+
+    .order-status-container {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .order-status-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        background-color: #f8f9fa;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .order-status-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    .order-status-badge {
+        font-size: 14px;
+        padding: 6px 12px;
+        border-radius: 20px;
+        background-color: #007bff;
+        color: white;
+        font-weight: 600;
+    }
+</style>
+
+<div class="container-fluid">
+    <!-- Üst Kartlar -->
+    <div class="row text-center mt-4">
+        <div class="col-md-3">
+            <div class="card dashboard-card bg-primary text-white">
+                <div class="card-body">
+                    <i class="fas fa-shopping-cart fa-icon"></i>
+                    <h5 class="card-title">Toplam Siparişler</h5>
+                    <p class="card-text">@totalOrderCount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card dashboard-card bg-success text-white">
+                <div class="card-body">
+                    <i class="fas fa-envelope fa-icon"></i>
+                    <h5 class="card-title">Mesajlar</h5>
+                    <p class="card-text">@messageCount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card dashboard-card bg-warning text-white">
+                <div class="card-body">
+                    <i class="fas fa-boxes fa-icon"></i>
+                    <h5 class="card-title">Ürünler</h5>
+                    <p class="card-text">@productCount</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card dashboard-card bg-info text-white">
+                <div class="card-body">
+                    <i class="fas fa-users fa-icon"></i>
+                    <h5 class="card-title">Kullanıcılar</h5>
+                    <p class="card-text">@userCount</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sipariş Durumları -->
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="card dashboard-card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Sipariş Durumları</h5>
+                </div>
+                <div class="card-body order-status-container" id="orderStatusContainer">
+                    <!-- Sipariş durumları buraya dinamik olarak eklenecek -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const orderCountByStatus = @Html.Raw(Json.Serialize(orderCountByStatus));
+        const orderStatusContainer = document.getElementById("orderStatusContainer");
+
+        for (const [status, count] of Object.entries(orderCountByStatus)) {
+            const statusCard = document.createElement("div");
+            statusCard.classList.add("order-status-card");
+
+            const statusText = document.createElement("span");
+            statusText.textContent = status;
+
+            const badge = document.createElement("span");
+            badge.classList.add("order-status-badge");
+            badge.textContent = count;
+
+            statusCard.appendChild(statusText);
+            statusCard.appendChild(badge);
+            orderStatusContainer.appendChild(statusCard);
+        }
+    });
+</script>

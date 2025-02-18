@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yönetim Paneli</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            display: flex;
+            background-color: #f8f9fa;
+            color: #333;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+        }
+
+        .sidebar {
+            min-width: 250px;
+            max-width: 250px;
+            background-color: #fff;
+            color: #333;
+            padding: 15px;
+            height: 100vh;
+            position: fixed;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .sidebar h2 {
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 15px;
+                font-weight: bold;
+                color: #007bff;
+            }
+
+            .sidebar a {
+                color: #333;
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                text-decoration: none;
+                font-size: 14px;
+                transition: all 0.3s ease;
+                border-radius: 5px;
+            }
+
+                .sidebar a i {
+                    margin-right: 10px;
+                }
+
+                .sidebar a:hover, .sidebar a.active {
+                    background-color: #f0f0f0;
+                    color: #007bff;
+                }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            margin-left: 250px;
+            width: calc(100% - 250px);
+            background: #fff;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="/home">
+            <img src="~/admin/img/AdminPaneliLOGOV2.png" alt="Logo" style="width: 100%;" />
+        </a>
+        <a href="/admin"><i class="fas fa-home"></i> Admin Anasayfa</a>
+        <a href="/admin/order"><i class="fas fa-shopping-cart"></i> Siparişler</a>
+        <a href="/admin/product"><i class="fas fa-box"></i> Ürünler</a>
+        <ul style="list-style: none; padding-left: 15px;">
+            <li><a href="/admin/product/GetAllFalse"><i class="fas fa-times-circle"></i> Pasif Ürünler</a></li>
+        </ul>
+        <a href="/admin/category"><i class="fas fa-tags"></i> Kategoriler</a>
+        <a href="/admin/Message"><i class="fas fa-envelope"></i> Mesajlar</a>
+        <a href="/admin/users"><i class="fas fa-users"></i> Kullanıcılar</a>
+        <a href="/admin/coupon"><i class="fas fa-tag"></i> İndirim Kuponları</a>
+        <a href="/admin/Comment"><i class="fas fa-comments"></i> Ürün Yorumları</a>
+        <a href="/admin/Settings"><i class="fas fa-cog"></i> Ayarlar</a>
+    </div>
+    <div class="content">
+        @RenderBody()
+        @await Component.InvokeAsync("NToastNotify")
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let currentPath = window.location.pathname;
+            let menuItems = document.querySelectorAll(".sidebar a");
+            menuItems.forEach(item => {
+                if (item.getAttribute("href") === currentPath) {
+                    item.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

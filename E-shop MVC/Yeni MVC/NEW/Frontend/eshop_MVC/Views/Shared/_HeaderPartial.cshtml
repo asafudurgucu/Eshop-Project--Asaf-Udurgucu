@@ -1,0 +1,88 @@
+@using System.Security.Claims
+
+@{
+   
+}
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                  
+                        @await Component.InvokeAsync("Logo") 
+                    
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a asp-area="" asp-controller="Home" asp-action="Index" class="active">Ana Sayfa</a></li>
+                        <li class="scroll-to-section"><a asp-area="" asp-controller="Product" asp-action="Index">Ürünler</a></li>
+                        <li><a href="/about">Hakkımızda</a></li>
+                        <li><a href="/contact">Bize Ulaşın</a></li>
+                        @if (User?.Identity?.IsAuthenticated == true)
+                        {
+                            var userEmail = User?.FindFirst(ClaimTypes.Email)?.Value;
+                            var userName = User?.FindFirst(ClaimTypes.Name)?.Value;
+                            var displayName = !string.IsNullOrEmpty(userEmail) ? userEmail : (userName ?? "Kullanıcı");
+
+                            <li class="submenu">
+                                <a href="javascript:;"><i class="fas fa-user"></i> </a>
+                                <ul>
+                                    <li>
+                                        <a class="nav-link" asp-area="" asp-controller="" asp-action="">
+                                            @displayName
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index">
+                                            Hesabım
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" asp-area="" asp-controller="Auth" asp-action="Logout">
+                                            Çıkış Yap
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" asp-area="" asp-controller="Order" asp-action="Index">
+                                            Siparişlerim 
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="submenu">
+                                <a href="javascript:;"><i class="fas fa-user"></i></a>
+                                <ul>
+                                    <li><a asp-area="" asp-controller="Auth" asp-action="Login">Giriş Yap</a></li>
+                                    <li><a asp-area="" asp-controller="Auth" asp-action="Register">Kayıt Ol</a></li>
+                                </ul>
+                            </li>
+                        }
+
+                        <li class="scroll-to-section">
+                            <a asp-area="" asp-controller="Basket" asp-action="Index" ><i class="fas fa-shopping-basket"></i></a>
+                        </li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        console.log('Scripts bölümü çalıştı!');
+    </script>
+}

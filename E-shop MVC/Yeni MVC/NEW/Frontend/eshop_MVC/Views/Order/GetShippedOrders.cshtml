@@ -1,0 +1,94 @@
+﻿@using System.Globalization
+@using eshop_MVC.Helpers
+@model IEnumerable<OrderModel>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Kargoya Verilen Siparişler</h1>
+
+    @if (!Model.Any())  
+    {
+        <div class="alert alert-info text-center">
+            <strong>Şu anda kargoya verilen sipariş bulunmamaktadır.</strong>
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover shadow-sm">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>Sipariş Numarası</th>
+                        <th>Toplam Fiyat</th>
+                        <th>Sipariş Tarihi</th>
+                        <th>Durum</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td class="text-center">@order.Id</td>
+                            <td class="text-end">@order.TotalAmount.ToString("C", new CultureInfo("tr-TR"))</td>
+                            <td class="text-center">@order.CreatedDate.ToString("dd/MM/yyyy")</td>
+                            <td class="text-center">
+                                <span class="badge bg-@GetStatusClass(order.OrderStatus)">
+                                    @GetStatusText(order.OrderStatus)
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <a href="/Order/Details/@order.Id" class="btn btn-info btn-sm">
+                                    <i class="bi bi-eye"></i> Detayları Gör
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+@functions {
+    string GetStatusClass(OrderStatus status)
+    {
+        return status switch
+        {
+            OrderStatus.Pending => "warning",
+            OrderStatus.Shipped => "primary",
+            OrderStatus.Delivered => "success",
+            OrderStatus.Cancelled => "danger",
+            _ => "secondary"
+        };
+    }
+
+    string GetStatusText(OrderStatus status)
+    {
+        return status switch
+        {
+            OrderStatus.Pending => "Beklemede",
+            OrderStatus.Shipped => "Kargoya Verildi",
+            OrderStatus.Delivered => "Teslim Edildi",
+            OrderStatus.Cancelled => "İptal Edildi",
+            _ => "Bilinmiyor"
+        };
+    }
+}

@@ -1,0 +1,88 @@
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.deps.json
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.pdb
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.pdb
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.AssemblyReference.cache
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfoInputs.cache
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfo.cs
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.Up2Date
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\refint\eshop_Data.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Desktop\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\ref\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.deps.json
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.pdb
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.pdb
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.AssemblyReference.cache
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfoInputs.cache
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfo.cs
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.sourcelink.json
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.Up2Date
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\refint\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop-UC\E-shop\eshop_Data\obj\Debug\net8.0\ref\eshop_Data.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.deps.json
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.pdb
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.pdb
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.AssemblyReference.cache
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfoInputs.cache
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfo.cs
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.Up2Date
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\refint\eshop_Data.dll
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Desktop\Proje_ECommerce\Backend\E-shop\eshop_Data\obj\Debug\net8.0\ref\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.deps.json
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.pdb
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.pdb
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.AssemblyReference.cache
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfoInputs.cache
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfo.cs
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.sourcelink.json
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.Up2Date
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\refint\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Documents\GitHub\Asafudurgucu_MSCD\Modül00_projeler\Proje_ECommerce\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\ref\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.deps.json
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.dll
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.dll
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Entity.pdb
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\bin\Debug\net8.0\eshop_Shared.pdb
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.AssemblyReference.cache
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfoInputs.cache
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.AssemblyInfo.cs
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.csproj.Up2Date
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\refint\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.pdb
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\ref\eshop_Data.dll
+C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Data\obj\Debug\net8.0\eshop_Data.sourcelink.json

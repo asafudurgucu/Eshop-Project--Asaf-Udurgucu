@@ -1,0 +1,272 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|solutionrelative:eshop_api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_service\\concrete\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|solutionrelative:eshop_service\\concrete\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_service\\abstract\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|solutionrelative:eshop_service\\abstract\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD75DD7A-9218-45C2-99AD-12A0C60C3388}|eshop_Data\\eshop_Data.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_data\\contcrete\\context\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD75DD7A-9218-45C2-99AD-12A0C60C3388}|eshop_Data\\eshop_Data.csproj|solutionrelative:eshop_data\\contcrete\\context\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|solutionrelative:eshop_api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|solutionrelative:eshop_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_service\\concrete\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|solutionrelative:eshop_service\\concrete\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_service\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|solutionrelative:eshop_service\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_service\\concrete\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|solutionrelative:eshop_service\\concrete\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_service\\abstract\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DE2B17-1C67-42E0-AE28-E23753D33F86}|eshop_Service\\eshop_Service.csproj|solutionrelative:eshop_service\\abstract\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|solutionrelative:eshop_api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|solutionrelative:eshop_api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_api\\controllers\\contactmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|solutionrelative:eshop_api\\controllers\\contactmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|solutionrelative:eshop_api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop api\\e-shop\\eshop_api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF46A31F-DB6E-4F86-92AC-DC87C68ACFB0}|eshop_API\\eshop_API.csproj|solutionrelative:eshop_api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Concrete\\CommentService.cs",
+              "RelativeDocumentMoniker": "eshop_Service\\Concrete\\CommentService.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Concrete\\CommentService.cs",
+              "RelativeToolTip": "eshop_Service\\Concrete\\CommentService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T02:16:25.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Abstract\\ICommentService.cs",
+              "RelativeDocumentMoniker": "eshop_Service\\Abstract\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Abstract\\ICommentService.cs",
+              "RelativeToolTip": "eshop_Service\\Abstract\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T02:15:46.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EshopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Data\\Contcrete\\Context\\EshopDbContext.cs",
+              "RelativeDocumentMoniker": "eshop_Data\\Contcrete\\Context\\EshopDbContext.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Data\\Contcrete\\Context\\EshopDbContext.cs",
+              "RelativeToolTip": "eshop_Data\\Contcrete\\Context\\EshopDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:18:12.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "eshop_API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "eshop_API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:10:01.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "eshop_API\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "eshop_API\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:09:15.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "eshop_API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "eshop_API\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAUwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:08:19.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "eshop_API\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\CommentController.cs*",
+              "RelativeToolTip": "eshop_API\\Controllers\\CommentController.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:07:41.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Abstract\\IOrderService.cs",
+              "RelativeDocumentMoniker": "eshop_Service\\Abstract\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Abstract\\IOrderService.cs",
+              "RelativeToolTip": "eshop_Service\\Abstract\\IOrderService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T23:28:18.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContactMessageController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\ContactMessageController.cs",
+              "RelativeDocumentMoniker": "eshop_API\\Controllers\\ContactMessageController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\ContactMessageController.cs",
+              "RelativeToolTip": "eshop_API\\Controllers\\ContactMessageController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:08:02.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Concrete\\OrderService.cs",
+              "RelativeDocumentMoniker": "eshop_Service\\Concrete\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Concrete\\OrderService.cs",
+              "RelativeToolTip": "eshop_Service\\Concrete\\OrderService.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T23:30:06.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "eshop_API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "eshop_API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowCkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:07:17.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "eshop_API\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "eshop_API\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswCEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:05:30.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "eshop_API\\Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_API\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "eshop_API\\Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAG0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:35:24.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Abstract\\ISettingsService.cs",
+              "RelativeDocumentMoniker": "eshop_Service\\Abstract\\ISettingsService.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Abstract\\ISettingsService.cs",
+              "RelativeToolTip": "eshop_Service\\Abstract\\ISettingsService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:35:15.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Concrete\\SettingsService.cs",
+              "RelativeDocumentMoniker": "eshop_Service\\Concrete\\SettingsService.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop API\\E-shop\\eshop_Service\\Concrete\\SettingsService.cs",
+              "RelativeToolTip": "eshop_Service\\Concrete\\SettingsService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowDwAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:35:13.208Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

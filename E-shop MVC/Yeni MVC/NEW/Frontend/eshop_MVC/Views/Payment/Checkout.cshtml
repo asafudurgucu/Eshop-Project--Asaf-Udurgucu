@@ -1,0 +1,40 @@
+﻿@model PaymentModel
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<section class="checkout py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Ödeme</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="alert alert-info text-center" role="alert">
+                    Ödenecek Toplam Tutar: <strong>@($"{ViewData["TotalPrice"]:C2}")</strong>
+                </div>
+              
+                <form asp-controller="Payment" asp-action="Checkout" method="post">
+                    <div class="form-group">
+                        <label for="CardName">Kart Üzerindeki İsim</label>
+                        <input type="text" class="form-control" id="CardName" asp-for="CardUserName" placeholder="Kart Üzerindeki İsim" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="CardNumber">Kart Numarası</label>
+                        <input type="text" class="form-control" id="CardNumber" asp-for="CardNumber" placeholder="Kart Numarası" required />
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="ExpiryDate">Son Kullanma Tarihi</label>
+                            <input type="text" class="form-control" id="ExpiryDate" asp-for="CardDate" placeholder="MM/YY" required />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="CVV">CVV</label>
+                            <input type="text" class="form-control" id="CVV" asp-for="Cvv" placeholder="CVV" required />
+                        </div>
+                    </div>
+                  
+                    <button type="submit" class="btn btn-primary btn-block">Öde</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section> 

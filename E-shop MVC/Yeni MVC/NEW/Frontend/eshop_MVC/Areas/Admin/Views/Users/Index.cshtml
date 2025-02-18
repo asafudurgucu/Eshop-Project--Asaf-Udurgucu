@@ -1,0 +1,94 @@
+@model IEnumerable<ApplicationUserModel>
+@{
+    ViewData["Title"] = "Kullanıcılar";
+}
+
+
+    <div class="row">
+        <div class="col-md-8 offset-md-0">
+            <h2 class="text-dark">Kullanıcılar (@ViewBag.UserCount)</h2>
+
+            <!-- Arama Kutuları -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" id="emailSearch" class="form-control" placeholder="E-posta ile ara...">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="phoneSearch" class="form-control" placeholder="Telefon numarası ile ara...">
+                </div>
+            </div>
+
+            <table class="table table-light table-hover mt-3" id="usersTable">
+                <thead class="thead-light">
+                    <tr>
+                        <th>#</th>
+                        <th>Ad</th>
+                        <th>Soyad</th>
+                        <th>Email</th>
+                        <th>Telefon</th>
+                        <th>Şehir</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.Id</td>
+                            <td>@user.FirstName</td>
+                            <td>@user.LastName</td>
+                            <td class="email">@user.Email</td>
+                            <td class="phone">@user.PhoneNumber</td>
+                            <td>@user.City</td>
+                            <td>
+                                <a href="@Url.Action("GetUserDetails", new { userId = user.Id })" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-eye"></i> Görüntüle
+                                </a>
+                                <button class="btn btn-danger btn-sm" onclick="deleteUser('@user.Id')">
+                                    <i class="bi bi-trash"></i> Sil
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+<script>
+    function deleteUser(userId) {
+        if (confirm("Bu kullanıcıyı silmek istediğinizden emin misiniz?")) {
+            fetch(`/Admin/Users/DeleteConfirmed?userId=${userId}`, {
+                method: "DELETE"
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert("Kullanıcı başarıyla silindi.");
+                    location.reload();
+                } else {
+                    alert("Kullanıcı silinemedi.");
+                }
+            });
+        }
+    }
+
+    document.getElementById("emailSearch").addEventListener("input", function () {
+        let searchValue = this.value.toLowerCase();
+        let rows = document.querySelectorAll("#usersTable tbody tr");
+        rows.forEach(row => {
+            let email = row.querySelector(".email").textContent.toLowerCase();
+            row.style.display = email.includes(searchValue) ? "" : "none";
+        });
+    });
+
+    document.getElementById("phoneSearch").addEventListener("input", function () {
+        let searchValue = this.value.toLowerCase();
+        let rows = document.querySelectorAll("#usersTable tbody tr");
+        rows.forEach(row => {
+            let phone = row.querySelector(".phone").textContent.toLowerCase();
+            row.style.display = phone.includes(searchValue) ? "" : "none";
+        });
+    });
+</script>

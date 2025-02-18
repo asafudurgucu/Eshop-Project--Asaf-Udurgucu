@@ -1,0 +1,123 @@
+@model ContactMessageModel
+<!-- ***** Main Banner Area Start ***** -->
+<!-- ***** Main Banner Area Start ***** -->
+<div class="contact-page-heading page-heading-contact d-flex align-items-center justify-content-center"
+     style="background-image: url(~/ui/); width: 100%; height: 500px; background-size: cover; background-position: center;">
+    <div class="container text-center mt-0">
+        <div class="row">
+            <div class="col-lg-12 d-flex flex-column align-items-center">
+                <div class="inner-content">
+                  
+                </div>
+                <img src="http://localhost:5051/@ViewBag.Banner" alt="" class="mx-auto d-block">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Main Banner Area End ***** -->
+
+<!-- ***** Contact Area Starts ***** -->
+<div class="contact-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div id="map">
+                    <iframe src="@ViewBag.Map" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <!-- You can simply copy and paste "Embed a map" code from Google Maps for any location. -->
+
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>Bize Ulaşın</h2>
+                    <span>Bize ulaşmak için aşşağıdaki formu doldurun</span>
+                </div>
+                <form asp-action="Index" asp-controller="Contact" method="post">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <fieldset>
+                                @* <label asp-for="CName"> İsminiz</label> *@
+                                <input asp-for="CName" type="text" class="form-control" placeholder="İsminiz" required />
+                                <span asp-validation-for="CName" class="text-danger"></span>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-6">
+                            <fieldset>
+                               @*  <label asp-for="CEmail"> Email Adresiniz</label> *@
+                                <input asp-for="CEmail" type="email" class="form-control" placeholder="Email Adresiniz" required />
+                                <span asp-validation-for="CEmail" class="text-danger"></span>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                            <fieldset>
+                                @* <label  asp-for="CMessage"> Mesajınız</label> *@
+                                <textarea asp-for="CMessage" rows="6" class="form-control" placeholder="Mesajınız" required></textarea>
+                                <span asp-validation-for="CMessage" class="text-danger"></span>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                            <button type="submit" id="form-submit" class="main-dark-button">
+                                <i class="fa fa-paper-plane"></i> Gönder
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Contact Area Ends ***** -->
+<!-- ***** Subscribe Area Starts ***** -->
+<div class="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="section-heading">
+                    <h2>Bültenimize Abone Olarak İndirimlerimizden Haberdar Olabilirsiniz</h2>
+                    <span>AAASSSAAAFFF</span>
+                </div>
+                <form id="subscribe" action="" method="get">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <fieldset>
+                                <input name="name" type="text" id="name" placeholder="İsminiz" required="">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-5">
+                            <fieldset>
+                                <input name="email" type="text" id="email" placeholder="Email Adresiniz" required="">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-2">
+                            <fieldset>
+                                <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>Store Location:<br><span>Sunny Isles Beach, FL 33160, United States</span></li>
+                            <li>Phone:<br><span>010-020-0340</span></li>
+                            <li>Office Location:<br><span>North Miami Beach</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>Work Hours:<br><span>07:30 AM - 9:30 PM Daily</span></li>
+                            <li>Email:<br><span>info@company.com</span></li>
+                            <li>Social Media:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Subscribe Area Ends ***** -->

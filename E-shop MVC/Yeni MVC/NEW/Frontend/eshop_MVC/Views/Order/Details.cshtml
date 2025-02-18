@@ -1,0 +1,137 @@
+﻿@using eshop_MVC.Helpers
+@model OrderModel
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 class="text-center">Sipariş Detayları</h1>
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <table class="table table-bordered">
+                <tr>
+                    <th scope="row">Sipariş Numarası</th>
+                    <td>@Model.Id</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sipariş Ad Soyad</th>
+                    <td>@ViewBag.UserName</td>
+                </tr>
+                <tr>
+                    <th scope="row">Durum</th>
+                    <td>
+                        <span class="badge @GetStatusBadge(Model.OrderStatus)">
+                            @GetStatusText(Model.OrderStatus)
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Oluşturulma Tarihi</th>
+                    <td>@Model.CreatedDate</td>
+                </tr>
+                <tr>
+                    <th scope="row">Toplam Tutar</th>
+                    <td>@Model.TotalAmount</td>
+                </tr>
+            </table>
+
+            <h2 class="mt-4">Sipariş Kalemleri</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Ürün ID</th>
+                        <th scope="col">Ürün Adı</th>
+                        <th scope="col">Adet</th>
+                        <th scope="col">Birim Fiyat</th>
+                        <th scope="col">Ürün Resmi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.OrderItems)
+                    {
+                        <tr>
+                            <td>@item.ProductId</td>
+                            <td>@item.Product.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.UnitPrice</td>
+                            <td><img src="http://localhost:5051/@item.Product.ImageUrl" alt="Product Image" width="200" class="img-fluid" /></td>
+                        </tr>
+                    }
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+
+@functions {
+    private string GetStatusBadge(OrderStatus status)
+    {
+        return status switch
+        {
+            OrderStatus.Pending => "bg-warning text-dark",
+            OrderStatus.Processing => "bg-info text-dark",
+            OrderStatus.Shipped => "bg-primary",
+            OrderStatus.Delivered => "bg-success",
+            OrderStatus.Cancelled => "bg-danger",
+            OrderStatus.Returned => "bg-secondary",
+            OrderStatus.Failed => "bg-dark",
+            _ => "bg-light text-dark",
+        };
+    }
+
+    private string GetStatusText(OrderStatus status)
+    {
+        return status switch
+        {
+            OrderStatus.Pending => "Beklemede",
+            OrderStatus.Processing => "İşleniyor",
+            OrderStatus.Shipped => "Kargoya Verildi",
+            OrderStatus.Delivered => "Teslim Edildi",
+            OrderStatus.Cancelled => "İptal Edildi",
+            OrderStatus.Returned => "İade Edildi",
+            OrderStatus.Failed => "Başarısız",
+            _ => "Bilinmiyor",
+        };
+    }
+}
+
+
+
+
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+
+    h1, h2 {
+        color: #343a40;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .mt-5 {
+        margin-top: 3rem;
+    }
+
+    .mt-4 {
+        margin-top: 1.5rem;
+    }
+</style>

@@ -1,0 +1,57 @@
+﻿@model eshop_MVC.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<h1>Ürün Sil</h1>
+
+<h4>Ürün</h4>
+<hr />
+<div>
+    <h4>Ürünü Silmek İstediğinize Emin Misiniz?</h4>
+    <dl class="row">
+        <dt class="col-sm-2">
+            Name
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Name
+        </dd>
+        <dt class="col-sm-2">
+            Properties
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Properties
+        </dd>
+        <dt class="col-sm-2">
+            Price
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Price
+        </dd>
+        <dt class="col-sm-2">
+            Categories
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Categories != null && Model.Categories.Any())
+            {
+                @string.Join(", ", Model.Categories.Select(c => c.Name))
+            }
+            else
+            {
+               
+            }
+        </dd>
+        <dt class="col-sm-2">
+            Image
+        </dt>
+        <dd class="col-sm-10">
+            <img src="http://localhost:5051/@Model.ImageUrl" alt="@Model.Name" width="100" />
+        </dd>
+    </dl>
+</div>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Geri Dön</a>
+</form>

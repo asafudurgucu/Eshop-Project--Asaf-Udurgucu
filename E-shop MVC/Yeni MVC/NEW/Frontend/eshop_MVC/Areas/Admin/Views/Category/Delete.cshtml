@@ -1,0 +1,20 @@
+﻿@model eshop_MVC.Models.CategoryModel
+@{
+    ViewBag.Title = "Kategori Sil";
+}
+
+<h1>Kategori Sil</h1>
+
+<div>
+    <h3>Bu kategoriyi silmek istediğinizden emin misiniz?</h3>
+    <div>
+        <h4>Kategori: @Model.Name</h4>
+        <h4>Açıklama: @Model.Description</h4>
+    </div>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Sil</button>
+        <a asp-action="Index" class="btn btn-secondary">İptal</a>
+    </form>
+</div>

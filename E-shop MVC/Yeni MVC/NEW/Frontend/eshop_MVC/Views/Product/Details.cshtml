@@ -1,0 +1,156 @@
+@model eshop_MVC.Models.ProductDetailsViewModel
+
+@{
+    ViewData["Title"] = Model.Product.Name;
+}
+<br />
+<br />
+<br />
+<br />
+<div class="container mt-5">
+    <div class="row">
+        <!-- Ürün Resmi -->
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <img src="http://localhost:5051/@Model.Product.ImageUrl" alt="@Model.Product.Name" class="card-img-top img-fluid rounded">
+            </div>
+        </div>
+
+        <!-- Ürün Bilgileri -->
+        <div class="col-md-6">
+            <h2 class="text-primary">@Model.Product.Name</h2>
+            <h4 class="text-danger">@Model.Product.Price.ToString("C")</h4>
+
+            <!-- Kategoriler -->
+            <p>
+                <strong>Kategori:</strong>
+                @(Model.Product.Categories != null && Model.Product.Categories.Any(c => c.IsActive)
+                    ? string.Join(", ", Model.Product.Categories.Where(c => c.IsActive).Select(c => c.Name))
+                    : "Kategori Yok")
+            </p>
+
+            <!-- Sepete Ekle Butonu -->
+            <form method="post" asp-controller="Cart" asp-action="AddToCart" class="mt-3">
+                <input type="hidden" name="productId" value="@Model.Product.Id" />
+                <button asp-area ="" asp-controller="Basket" asp-action="AddToBasket" asp-route-productId="@Model.Product.Id" asp-route-quantity="1" class="btn btn-primary"><i class="bi bi-cart-plus"></i> Sepete Ekle</button>
+                <a href="@Url.Action("Index")" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Geri Dön</a>
+            </form>
+
+            <!-- Ürün Özellikleri -->
+            <div class="card mt-4">
+                <div class="card-header bg-light">
+                    <strong>Ürün Özellikleri</strong>
+                </div>
+                <div class="card-body">
+                    <p>@Model.Product.Properties</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Yorumlar Bölümü -->
+    <div class="mt-5">
+        <h3>Yorumlar</h3>
+        @if (Model.Comments.Any())
+        {
+            <div class="row">
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="col-md-6">
+                        <div class="card mb-3 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <img src="http://localhost:5051/@comment.ProfileImageUrl" class="rounded-circle me-2" width="50" height="50" />
+                                    <div>
+                                        <strong>@comment.Name @comment.LastName</strong>
+                                        <div class="text-muted small">@comment.CreatedDate.ToString("g")</div>
+                                    </div>
+                                </div>
+                                <div class="mt-2">
+                                    <!-- Yıldızlarla Puan Gösterimi -->
+                                    <div class="rating-display">
+                                        @for (int i = 1; i <= 5; i++)
+                                        {
+                                            <i class="bi @(i <= comment.Rating ? "bi-star-fill text-warning" : "bi-star text-muted")"></i>
+                                        }
+                                    </div>
+                                    <p class="mt-2">@comment.Content</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <p class="text-muted">Henüz yorum yapılmamış.</p>
+        }
+    </div>
+
+    <!-- Yorum Yap Bölümü (Sadece Giriş Yapmış Kullanıcılar İçin) -->
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h3>Yorum Yap</h3>
+                <form asp-action="CreateComment" method="post">
+                    <input type="hidden" name="ProductId" value="@Model.Product.Id" />
+
+                    <div class="form-group">
+                        <label for="Content">Yorumunuz</label>
+                        <textarea class="form-control" id="Content" name="Content" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Rating">Derecelendirme</label>
+                        <div class="rating-display" id="rating-stars">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <i class="bi bi-star text-muted" data-index="@i" onclick="setRating(@i)"></i>
+                            }
+                        </div>
+                        <input type="hidden" id="Rating" name="Rating" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-2">Gönder</button>
+                </form>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="text-muted">Yorum yapabilmek için giriş yapmalısınız.</p>
+    }
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</div>
+
+<style>
+    .rating-display {
+        font-size: 1.5rem;
+    }
+
+        .rating-display i {
+            cursor: pointer;
+        }
+</style>
+
+<script>
+    function setRating(rating) {
+        // Yıldızları güncelle
+        var stars = document.querySelectorAll('#rating-stars i');
+        stars.forEach(function(star, index) {
+            if (index < rating) {
+                star.classList.remove('text-muted');
+                star.classList.add('text-warning');
+            } else {
+                star.classList.remove('text-warning');
+                star.classList.add('text-muted');
+            }
+        });
+
+        // Seçilen puanı hidden input'a yaz
+        document.getElementById('Rating').value = rating;
+    }
+</script>

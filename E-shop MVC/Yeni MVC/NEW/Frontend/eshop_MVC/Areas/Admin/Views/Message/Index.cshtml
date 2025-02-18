@@ -1,0 +1,79 @@
+﻿@model IEnumerable<eshop_MVC.Models.GetContactMessageModel>
+
+@{
+    ViewData["Title"] = "Contact Index";
+}
+
+<h1 class="text-center mb-4">Mesajlar</h1>
+
+<!-- Arama Formu -->
+<div class="mb-4">
+    <input type="text" id="searchString" class="form-control w-50" placeholder="ID ile Ara" />
+</div>
+
+@if (Model == null || !Model.Any()) // Model null veya boşsa
+{
+    <h4 class="alert alert-info text-center w-100">
+        Henüz seni bekleyen bir mesajın yok.
+    </h4>
+}
+else
+{
+    <!-- Mesajlar Tablosu -->
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead class="thead-light">
+                <tr>
+                    <th>ID</th>
+                    <th>Ad</th>
+                    <th>Email</th>
+                    <th>Mesaj</th>
+                    <th>Gönderim Tarihi</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody id="messageTableBody">
+                @foreach (var contact in Model)
+                {
+                    <tr>
+                        <td>@contact.Id</td>
+                        <td>@contact.CName</td>
+                        <td>@contact.CEmail</td>
+                        <td>
+                            <div>
+                                @contact.CMessage
+                            </div>
+                        </td>
+                        <td>@contact.CreatedDate.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td>
+                            <a asp-action="Delete" asp-route-id="@contact.Id" class="btn btn-danger btn-sm">
+                                <i class="fas fa-trash-alt"></i> Sil
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+<script>
+    // Arama fonksiyonu
+    document.getElementById('searchString').addEventListener('input', function () {
+        var searchValue = this.value.toLowerCase();
+        var rows = document.querySelectorAll('#messageTableBody tr');
+
+        rows.forEach(function (row) {
+            var idCell = row.cells[0].textContent.toLowerCase();
+            if (idCell.includes(searchValue)) {
+                row.style.display = '';
+            } else {
+                row.style.display = 'none';
+            }
+        });
+    });
+</script>
+
+<!-- Gerekli CSS ve Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />

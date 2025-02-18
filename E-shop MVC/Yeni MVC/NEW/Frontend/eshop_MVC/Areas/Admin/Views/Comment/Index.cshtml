@@ -1,0 +1,150 @@
+﻿@model IEnumerable<CommentWithProductViewModel>
+
+@{
+    ViewData["Title"] = "Yorumlar";
+}
+
+<h2 class="text-2xl font-extrabold mb-4 text-gray-900 text-center">💬 Kullanıcı Yorumları</h2>
+
+<div class="flex flex-col md:flex-row gap-4 mb-4">
+    <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Ürün adına göre ara..." class="p-2 border rounded w-full md:w-1/2">
+    <select id="ratingFilter" onchange="filterTable()" class="p-2 border rounded w-full md:w-1/2">
+        <option value="">Tüm Puanlar</option>
+        <option value="1">⭐ 1</option>
+        <option value="2">⭐ 2</option>
+        <option value="3">⭐ 3</option>
+        <option value="4">⭐ 4</option>
+        <option value="5">⭐ 5</option>
+    </select>
+</div>
+
+@if (TempData["Success"] != null)
+
+{
+    <div class="bg-green-100 text-green-700 p-3 rounded-lg mb-3 shadow-lg animate-pulse">
+        @TempData["Success"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+
+{
+    <div class="bg-red-100 text-red-700 p-3 rounded-lg mb-3 shadow-lg animate-bounce">
+        @TempData["Error"]
+    </div>
+}
+
+<div class="overflow-x-auto rounded-lg shadow-xl border border-gray-300 bg-gray-50 p-2">
+    <table class="min-w-full bg-white rounded-lg overflow-hidden shadow-md text-xs">
+        <thead class="bg-gradient-to-r from-purple-500 to-pink-600 text-gray-200">
+            <tr>
+                <th class="py-2 px-3 text-left font-bold uppercase cursor-pointer" onclick="sortTable(0)">ID ⬍</th>
+                <th class="py-2 px-3 text-left font-bold uppercase cursor-pointer" onclick="sortTable(1)">Ürün ⬍</th>
+                <th class="py-2 px-3 text-left font-bold uppercase">Kullanıcı</th>
+                <th class="py-2 px-3 text-left font-bold uppercase">Yorum</th>
+                <th class="py-2 px-3 text-left font-bold uppercase">Puan</th>
+                <th class="py-2 px-3 text-left font-bold uppercase">Tarih</th>
+                <th class="py-2 px-3 text-left font-bold uppercase">Profil</th>
+                <th class="py-2 px-3 text-left font-bold uppercase">İşlemler</th>
+            </tr>
+        </thead>
+        <tbody id="commentTableBody" class="divide-y divide-gray-300">
+            @foreach (var comment in Model)
+            {
+                <tr class="hover:bg-gray-100 transition duration-300">
+                    <td class="py-2 px-3 text-gray-800 font-medium">@comment.Id</td>
+                    <td class="py-2 px-3 text-gray-900 font-semibold">@comment.ProductName</td>
+                    <td class="py-2 px-3 text-gray-800">@comment.Name @comment.LastName</td>
+                    <td class="py-2 px-3 text-gray-800 truncate max-w-xs">@comment.Content</td>
+                    <td class="py-2 px-3 text-gray-900 font-bold text-center">⭐ @comment.Rating</td>
+                    <td class="py-2 px-3 text-gray-700">@comment.CreatedDate.ToString("dd/MM/yyyy")</td>
+                    <td class="py-2 px-3 text-center">
+                        <img src="http://localhost:5051/@comment.ProfileImageUrl" alt="Profil Resmi" style="width: 40px; height: 40px; border-radius: 50%; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);" class="border border-gray-400 object-cover">
+
+                    </td>
+                    <td class="py-2 px-3 text-center">
+                        <form asp-action="Delete" asp-route-id="@comment.Id" method="post">
+                            <button type="submit" class="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600 transition duration-300 shadow">Sil</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function sortTable(n) {
+        let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+        table = document.querySelector("table");
+        switching = true;
+        dir = "asc";
+        while (switching) {
+            switching = false;
+            rows = table.rows;
+            for (i = 1; i < (rows.length - 1); i++) {
+                shouldSwitch = false;
+                x = rows[i].getElementsByTagName("TD")[n];
+                y = rows[i + 1].getElementsByTagName("TD")[n];
+                if (dir === "asc") {
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                } else if (dir === "desc") {
+                    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+            }
+            if (shouldSwitch) {
+                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                switching = true;
+                switchcount++;
+            } else {
+                if (switchcount === 0 && dir === "asc") {
+                    dir = "desc";
+                    switching = true;
+                }
+            }
+        }
+    }
+
+    function filterTable() {
+        let input, filter, ratingFilter, table, tr, td, i, txtValue, ratingValue;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        ratingFilter = document.getElementById("ratingFilter").value;
+        table = document.getElementById("commentTableBody");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[1]; 
+            ratingTd = tr[i].getElementsByTagName("td")[4]; 
+
+            if (td && ratingTd) {
+                txtValue = td.textContent || td.innerText;
+                ratingValue = ratingTd.textContent || ratingTd.innerText;
+
+                let showRow = true;
+
+               
+                if (filter && txtValue.toUpperCase().indexOf(filter) === -1) {
+                    showRow = false;
+                }
+
+               
+                if (ratingFilter && !ratingValue.includes(`⭐ ${ratingFilter}`)) {
+                    showRow = false;
+                }
+
+                if (showRow) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>

@@ -1,0 +1,69 @@
+@model RegisterModel
+<br />
+<br />
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Kayıt Ol</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Register" method="post">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Ad</label>
+                                <input type="text" class="form-control form-control-sm" id="name" asp-for="FirstName" placeholder="Adınızı girin">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="surname">Soyad</label>
+                                <input type="text" class="form-control form-control-sm" id="surname" asp-for="LastName" placeholder="Soyadınızı girin">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="address">Adres</label>
+                                <input type="text" class="form-control form-control-sm" id="address" asp-for="Address" placeholder="Adresinizi girin">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="city">Şehir</label>
+                                <input type="text" class="form-control form-control-sm" id="city" asp-for="City" placeholder="Şehrinizi girin">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="phone">Telefon Numarası</label>
+                                <input type="tel" class="form-control form-control-sm" id="phone" asp-for="PhoneNumber" placeholder="Telefon numaranızı girin">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="birthdate">Doğum Günü</label>
+                                <input type="date" class="form-control form-control-sm" id="birthdate" asp-for="BirthDay">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="password">Şifre</label>
+                                <input type="password" class="form-control form-control-sm" id="password" asp-for="Password" placeholder="Şifrenizi girin">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">E-posta</label>
+                                <input type="email" class="form-control form-control-sm" id="email" asp-for="Email" placeholder="E-postanızı girin">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="confirm-password">Şifreyi Onayla</label>
+                                <input type="password" class="form-control form-control-sm" id="confirm-password" asp-for="ConfirmPassword" placeholder="Şifrenizi tekrar girin">
+                            </div>
+                        </div>
+                        <br />
+                        <button type="submit" class="btn btn-dark btn-sm btn-block p-2">Kayıt Ol</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -1,0 +1,48 @@
+﻿@model ApplicationUserModel
+@{
+    ViewData["Title"] = "Kullanıcı Detayları";
+}
+
+
+    <h2 class="text-light">@Model.FirstName @Model.LastName</h2>
+    <div class="card bg-dark text-white mt-3">
+        <div class="card-body">
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Telefon:</strong> @Model.PhoneNumber</p>
+            <p><strong>Adres:</strong> @Model.Address</p>
+            <p><strong>Şehir:</strong> @Model.City</p>
+            <p><strong>Doğum Tarihi:</strong> @Model.DateOfBirth.ToString("dd.MM.yyyy")</p>
+        </div>
+    </div>
+
+    <!-- Kullanıcıyı Güncelleme -->
+   
+
+    <!-- Kullanıcıyı Silme -->
+    <button class="btn btn-danger mt-3" onclick="deleteUser('@Model.Id')">
+        <i class="bi bi-trash"></i> Sil
+    </button>
+
+    <a href="@Url.Action("Index")" class="btn btn-secondary mt-3">
+        <i class="bi bi-arrow-left"></i> Geri Dön
+    </a>
+
+
+<script>
+    function deleteUser(userId) {
+        if (confirm("Bu kullanıcıyı silmek istediğinizden emin misiniz?")) {
+            fetch(`/Admin/Users/DeleteConfirmed?userId=${userId}`, {
+                method: "DELETE"
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert("Kullanıcı başarıyla silindi.");
+                    window.location.href = "@Url.Action("Index")";  // Geri dönme işlemi
+                } else {
+                    alert("Kullanıcı silinemedi.");
+                }
+            });
+        }
+    }
+</script>

@@ -1,0 +1,58 @@
+﻿@model eshop_MVC.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>Ürün Detayları</h1>
+
+<div>
+    <h4>Ürün</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Name
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Name
+        </dd>
+        <dt class="col-sm-2">
+            Properties
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Properties
+        </dd>
+        <dt class="col-sm-2">
+            Price
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Price
+        </dd>
+        <dt class="col-sm-2">
+            Categories
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Categories != null && Model.Categories.Any())
+            {
+                @string.Join(", ", Model.Categories.Select(c => c.Name))
+            }
+            else
+            {
+
+                
+            }
+        </dd>
+        <dt class="col-sm-2">
+            Image
+        </dt>
+        <dd class="col-sm-10">
+            <img src="http://localhost:5051/@Model.ImageUrl" style="width:200px;height:auto;" class="card-img-top" alt="">
+        </dd>
+
+
+    </dl>
+</div>
+<div>
+    <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-warning">Edit</a>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Geri Dön</a>
+</div>

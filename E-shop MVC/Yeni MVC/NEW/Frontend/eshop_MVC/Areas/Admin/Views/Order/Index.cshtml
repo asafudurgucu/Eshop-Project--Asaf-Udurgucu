@@ -1,0 +1,167 @@
+﻿@using eshop_MVC.Helpers
+@model IEnumerable<eshop_MVC.Models.OrderModel>
+@{
+    ViewData["Title"] = "Sipariş Listesi";
+}
+
+<!-- Başlık ve Bilgi Alanı -->
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="text-primary">Sipariş Listesi</h2>
+    <div class="text-center">
+        <span class="text-muted">Toplam Sipariş Sayısı: @ViewBag.OrderStatuses</span>
+    </div>
+</div>
+
+<!-- Filtreleme ve Arama Alanları -->
+<div class="mb-4 p-3 bg-light rounded shadow-sm">
+    <form method="get" asp-action="FilterByDateRange" class="row g-3 align-items-center">
+        <!-- Tarih Aralığı Filtreleme -->
+        <div class="col-md-3">
+            <label for="startDate" class="form-label">Başlangıç Tarihi:</label>
+            <input type="date" id="startDate" name="startDate" class="form-control" value="@Context.Request.Query["startDate"]" />
+        </div>
+        <div class="col-md-3">
+            <label for="endDate" class="form-label">Bitiş Tarihi:</label>
+            <input type="date" id="endDate" name="endDate" class="form-control" value="@Context.Request.Query["endDate"]" />
+        </div>
+
+        <!-- Filtreleme Butonu -->
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary w-100 mt-4">
+                <i class="bi bi-funnel"></i> Filtrele
+            </button>
+        </div>
+
+        <!-- Durum Filtreleme -->
+        <div class="col-md-3">
+            <label for="orderStatus" class="form-label">Durum Seçin:</label>
+            <select id="orderStatus" name="orderStatus" class="form-select" onchange="filterStatus(this.value)">
+                <option value="">Tüm Siparişler</option>
+                <option value="Pending" selected="@(Context.Request.Query["orderStatus"] == "Pending")">Beklemede</option>
+                <option value="Processing" selected="@(Context.Request.Query["orderStatus"] == "Processing")">İşleniyor</option>
+                <option value="Shipped" selected="@(Context.Request.Query["orderStatus"] == "Shipped")">Kargoya Verildi</option>
+                <option value="Delivered" selected="@(Context.Request.Query["orderStatus"] == "Delivered")">Teslim Edildi</option>
+                <option value="Cancelled" selected="@(Context.Request.Query["orderStatus"] == "Cancelled")">İptal Edildi</option>
+            </select>
+        </div>
+
+        <!-- Arama Alanı -->
+        <div class="col-md-3">
+            <label for="searchOrderId" class="form-label">Sipariş ID'sine Göre Ara:</label>
+            <input type="text" id="searchOrderId" name="searchOrderId" onkeyup="searchOrder()" placeholder="Sipariş ID'sine göre ara" class="form-control" value="@Context.Request.Query["searchOrderId"]">
+        </div>
+    </form>
+</div>
+
+<!-- Siparişler Tablosu -->
+<div class="table-responsive">
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            Şu anda görüntülenecek sipariş bulunmamaktadır.
+        </div>
+    }
+    else
+    {
+        <table id="orderTable" class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Durum</th>
+                    <th>Sipariş Tarihi</th>
+                    <th>Toplam Tutar</th>
+                    <th>Aksiyonlar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.OrderByDescending(o => o.CreatedDate))
+                {
+                    <tr class="orderRow" data-status="@order.OrderStatus">
+                        <td>@order.Id</td>
+                        <td><span class="badge @GetStatusBadge(order.OrderStatus)">@GetStatusText(order.OrderStatus)</span></td>
+                        <td>@order.CreatedDate.ToShortDateString()</td>
+                        <td>@order.TotalAmount.ToString("C")</td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-info btn-sm">
+                                <i class="bi bi-eye"></i> Detay
+                            </a>
+                            <a asp-action="Edit" asp-route-id="@order.Id" class="btn btn-warning btn-sm">
+                                <i class="bi bi-pencil"></i> Düzenle
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@order.Id" class="btn btn-danger btn-sm">
+                                <i class="bi bi-trash"></i> Sil
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+<script>
+    // Arama fonksiyonu
+    function searchOrder() {
+        var input = document.getElementById("searchOrderId");
+        var filter = input.value.toUpperCase();
+        var table = document.getElementById("orderTable");
+        var tr = table.getElementsByTagName("tr");
+
+        for (var i = 0; i < tr.length; i++) {
+            var td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                var txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+
+    // Sipariş Durumu Filtreleme fonksiyonu
+    function filterStatus(status) {
+        var rows = document.querySelectorAll(".orderRow");
+        rows.forEach(function (row) {
+            var rowStatus = row.getAttribute("data-status");
+            if (status === '' || rowStatus === status) {
+                row.style.display = '';
+            } else {
+                row.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+@functions {
+    private string GetStatusBadge(OrderStatus status)
+    {
+        return status switch
+        {
+            OrderStatus.Pending => "bg-warning text-dark",
+            OrderStatus.Processing => "bg-info text-dark",
+            OrderStatus.Shipped => "bg-primary",
+            OrderStatus.Delivered => "bg-success",
+            OrderStatus.Cancelled => "bg-danger",
+            OrderStatus.Returned => "bg-secondary",
+            OrderStatus.Failed => "bg-danger",
+            _ => "bg-light text-dark",
+        };
+    }
+
+    private string GetStatusText(OrderStatus status)
+    {
+        return status switch
+        {
+            OrderStatus.Pending => "Beklemede",
+            OrderStatus.Processing => "İşleniyor",
+            OrderStatus.Shipped => "Kargoya Verildi",
+            OrderStatus.Delivered => "Teslim Edildi",
+            OrderStatus.Cancelled => "İptal Edildi",
+            OrderStatus.Returned => "İade Edildi",
+            OrderStatus.Failed => "Başarısız",
+            _ => "Bilinmiyor",
+        };
+    }
+}

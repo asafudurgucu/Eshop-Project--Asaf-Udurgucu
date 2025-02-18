@@ -1,0 +1,101 @@
+﻿@model IEnumerable<eshop_MVC.Models.CategoryModel>
+
+@{
+    ViewBag.Title = "Kategori Listesi";
+}
+
+<h1 class="text-center mb-4">Kategori Listesi</h1>
+
+<!-- Yeni Kategori Ekle Butonu -->
+<div class="d-flex justify-content-between mb-3">
+    <a href="@Url.Action("Create", "Category")" class="btn btn-success">
+        <i class="fas fa-plus"></i> Yeni Kategori Ekle
+    </a>
+</div>
+
+<!-- Arama ve Durum Filtreleme -->
+<div class="row mb-4">
+    <div class="col-md-6">
+        <input type="text" id="searchInput" class="form-control" placeholder="Kategori Ara..." />
+    </div>
+    <div class="col-md-6">
+        <select id="statusFilter" class="form-select">
+            <option value="">Tüm Durumlar</option>
+            <option value="true">Aktif</option>
+            <option value="false">Pasif</option>
+        </select>
+    </div>
+</div>
+
+<!-- Kategori Tablosu -->
+<div class="table-responsive">
+    <table class="table table-hover table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>Id</th>
+                <th>Ad</th>
+                <th>Açıklama</th>
+                <th>Durum</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody id="categoryTable">
+            @foreach (var category in Model)
+            {
+                <tr class="category-card" data-name="@category.Name.ToLower()" data-status="@category.IsActive.ToString().ToLower()">
+                    <td>@category.Id</td>
+                    <td>@category.Name</td>
+                    <td>@category.Description</td>
+                    <td>
+                        <span class="badge @(category.IsActive ? "bg-success" : "bg-danger")">
+                            @(category.IsActive ? "Aktif" : "Pasif")
+                        </span>
+                    </td>
+                    <td class="d-flex justify-content-start">
+                        <a href="@Url.Action("Edit", "Category", new { id = category.Id })" class="btn btn-warning btn-sm me-2">
+                            <i class="fas fa-edit"></i> Düzelt
+                        </a>
+                        <a href="@Url.Action("Delete", "Category", new { id = category.Id })" class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash"></i> Sil
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    // Filtreleme fonksiyonu
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('searchInput');
+        const statusFilter = document.getElementById('statusFilter');
+        const categoryTable = document.getElementById('categoryTable');
+
+        // Kategori filtreleme
+        function filterCategories() {
+            const searchValue = searchInput.value.toLowerCase();
+            const selectedStatus = statusFilter.value.toLowerCase();
+
+            document.querySelectorAll('.category-card').forEach(card => {
+                const categoryName = card.dataset.name;
+                const categoryStatus = card.dataset.status;
+
+                const matchesSearch = categoryName.includes(searchValue);
+                const matchesStatus = selectedStatus === "" || categoryStatus === selectedStatus;
+
+                // Eşleşen kategori satırını göster, diğerlerini gizle
+                card.style.display = (matchesSearch && matchesStatus) ? '' : 'none';
+            });
+        }
+
+        // Arama kutusuna yazıldığında filtreleme
+        searchInput.addEventListener('input', filterCategories);
+
+        // Durum seçildiğinde filtreleme
+        statusFilter.addEventListener('change', filterCategories);
+    });
+</script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">

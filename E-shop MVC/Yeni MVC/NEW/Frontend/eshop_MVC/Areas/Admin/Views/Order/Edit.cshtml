@@ -1,0 +1,39 @@
+@model OrderModel
+
+@{
+    ViewData["Title"] = "Sipariş Durumunu Düzenle";
+}
+
+<h1 class="my-4">Sipariş Durumunu Düzenle</h1>
+
+<form asp-action="Edit" method="post" class="needs-validation" novalidate>
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group mb-3">
+        <label asp-for="OrderStatus" class="form-label">Sipariş Durumu</label>
+        <select name="status" asp-for="OrderStatus" class="form-select">
+            <option value="0">Beklemede</option>
+            <option value="1">İşleniyor</option>
+            <option value="2">Kargoya Verildi</option>
+            <option value="3">Teslim Edildi</option>
+            <option value="4">İptal Edildi</option>
+            <option value="5">İade Edildi</option>
+            <option value="6">Başarısız</option>
+        </select>
+
+        <div class="invalid-feedback">
+            Lütfen bir sipariş durumu seçin.
+        </div>
+    </div>
+
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-primary">
+            <i class="bi bi-check-circle-fill"></i> Kaydet
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="bi bi-x-circle"></i> İptal
+        </a>
+    </div>
+</form>
+
+

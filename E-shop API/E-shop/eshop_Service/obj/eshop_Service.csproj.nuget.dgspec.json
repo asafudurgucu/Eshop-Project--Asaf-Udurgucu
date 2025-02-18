@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj",
+        "projectName": "eshop_Data",
+        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj": {
+                "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj"
+              },
+              "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
+                "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj",
+        "projectName": "eshop_Entity",
+        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
+                "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj",
+        "projectName": "eshop_Service",
+        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj": {
+                "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj"
+              },
+              "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
+                "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj",
+        "projectName": "eshop_Shared",
+        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

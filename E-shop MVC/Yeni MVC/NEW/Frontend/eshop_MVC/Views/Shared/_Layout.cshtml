@@ -1,0 +1,17 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+   @await Html.PartialAsync("_StylesPartialHead")
+  </head>
+    
+    <body>
+@await Html.PartialAsync("_PreloaderEndPartial")    
+@await Html.PartialAsync("_HeaderPartial")  
+    @RenderBody()
+@await Html.PartialAsync("_FooterPartial")
+    @await Component.InvokeAsync("NToastNotify")
+@await Html.PartialAsync("_scriptPartial")
+  </body>
+</html>

@@ -1,0 +1,128 @@
+﻿@model IEnumerable<eshop_MVC.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "Pasif Ürün Listesi";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="text-primary">Pasif Ürünler</h2>
+    <div>
+        <span class="text-muted">Toplam Pasif Ürün: @ViewBag.ProductCount</span>
+    </div>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-success">
+        <i class="fas fa-plus"></i> Ürün Düzenleme Sayfasına Git
+    </a>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <input type="text" id="searchInput" class="form-control" placeholder="Ürün Ara..." />
+    </div>
+    <div class="col-md-4">
+        <select id="categoryFilter" class="form-select">
+            <option value="">Tüm Kategoriler</option>
+            @foreach (var category in Model.SelectMany(p => p.Categories).Distinct())
+            {
+                <option value="@category.Name">@category.Name</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-4 d-flex">
+        <input type="number" id="priceMinFilter" class="form-control me-2" placeholder="Min Fiyat">
+        <input type="number" id="priceMaxFilter" class="form-control" placeholder="Max Fiyat">
+    </div>
+</div>
+
+<div class="row" id="productList">
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-3 product-card" data-name="@product.Name.ToLower()" data-category="@string.Join(",", product.Categories.Select(c => c.Name.ToLower()))" data-price="@product.Price">
+            <div class="card shadow-sm" style="width: 100%;">
+                <img src="http://localhost:5051/@product.ImageUrl" class="card-img-top" style="height: 150px; object-fit: contain;" alt="@product.Name">
+                <div class="card-body p-2">
+                    <h6 class="card-title text-dark" style="font-size: 14px;">@product.Name</h6>
+                    <p class="text-muted" style="font-size: 12px;">@product.Properties</p>
+                    <p class="fw-bold text-success" style="font-size: 14px;">@product.Price <i class="fas fa-lira-sign"></i></p>
+                    <p class="small text-secondary" style="font-size: 10px;">Kategori: @string.Join(", ", product.Categories.Select(c => c.Name))</p>
+                    <div class="d-flex justify-content-between">
+                        <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-outline-primary btn-sm-custom">Detay</a>
+                        <a href="@Url.Action("Edit", "Product", new { id = product.Id })" class="btn btn-outline-warning btn-sm-custom">Düzenle</a>
+                        <a href="@Url.Action("Delete", "Product", new { id = product.Id })" class="btn btn-outline-danger btn-sm-custom">Sil</a>
+                    </div>
+                    <div class="d-flex justify-content-center mt-2">
+                        <a asp-action="UpdateIsActive" asp-area="Admin" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-outline-danger btn-sm-custom">
+                            <i class="fas fa-toggle-off fa-lg" style="color: #e10505;"></i> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const searchInput = document.getElementById('searchInput');
+        const categoryFilter = document.getElementById('categoryFilter');
+        const priceMinFilter = document.getElementById('priceMinFilter');
+        const priceMaxFilter = document.getElementById('priceMaxFilter');
+        const productList = document.getElementById('productList');
+
+        function filterProducts() {
+            const searchValue = searchInput.value.toLowerCase();
+            const selectedCategory = categoryFilter.value.toLowerCase();
+            const minPrice = parseFloat(priceMinFilter.value) || 0;
+            const maxPrice = parseFloat(priceMaxFilter.value) || Infinity;
+
+            document.querySelectorAll('.product-card').forEach(card => {
+                const productName = card.dataset.name;
+                const productCategories = card.dataset.category;
+                const productPrice = parseFloat(card.dataset.price);
+
+                const matchesSearch = productName.includes(searchValue);
+                const matchesCategory = selectedCategory === "" || productCategories.includes(selectedCategory);
+                const matchesPrice = productPrice >= minPrice && productPrice <= maxPrice;
+
+                card.style.display = (matchesSearch && matchesCategory && matchesPrice) ? '' : 'none';
+            });
+        }
+
+        searchInput.addEventListener('input', filterProducts);
+        categoryFilter.addEventListener('change', filterProducts);
+        priceMinFilter.addEventListener('input', filterProducts);
+        priceMaxFilter.addEventListener('input', filterProducts);
+    });
+</script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+<style>
+    .product-card {
+        display: block;
+    }
+
+    .btn-sm-custom {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .card-img-top {
+        object-fit: contain;
+        height: 150px;
+    }
+
+    .card-body {
+        padding: 0.75rem;
+    }
+
+    .btn-outline-danger {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .d-flex.justify-content-between {
+        justify-content: space-between;
+    }
+</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">

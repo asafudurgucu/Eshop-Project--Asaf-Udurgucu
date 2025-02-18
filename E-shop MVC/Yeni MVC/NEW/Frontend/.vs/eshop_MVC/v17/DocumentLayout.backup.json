@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop mvc\\yeni mvc\\new\\frontend\\eshop_mvc\\areas\\admin\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|solutionrelative:eshop_mvc\\areas\\admin\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop mvc\\yeni mvc\\new\\frontend\\eshop_mvc\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|solutionrelative:eshop_mvc\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop mvc\\yeni mvc\\new\\frontend\\eshop_mvc\\views\\shared\\_headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|solutionrelative:eshop_mvc\\views\\shared\\_headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop mvc\\yeni mvc\\new\\frontend\\eshop_mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|solutionrelative:eshop_mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop mvc\\yeni mvc\\new\\frontend\\eshop_mvc\\areas\\admin\\views\\comment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|solutionrelative:eshop_mvc\\areas\\admin\\views\\comment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop mvc\\yeni mvc\\new\\frontend\\eshop_mvc\\areas\\admin\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|solutionrelative:eshop_mvc\\areas\\admin\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|c:\\users\\casper\\documents\\github\\e-shop-project\\projet-mvc-ap\u0130\\e-shop mvc\\yeni mvc\\new\\frontend\\eshop_mvc\\models\\commentwithproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{289B950C-61AD-4232-A652-B0BE0FD35AD0}|eshop_MVC\\eshop_MVC.csproj|solutionrelative:eshop_mvc\\models\\commentwithproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 211,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Areas\\Admin\\Views\\Settings\\Index.cshtml",
+              "RelativeDocumentMoniker": "eshop_MVC\\Areas\\Admin\\Views\\Settings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Areas\\Admin\\Views\\Settings\\Index.cshtml*",
+              "RelativeToolTip": "eshop_MVC\\Areas\\Admin\\Views\\Settings\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T03:43:14.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_HeaderPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Views\\Shared\\_HeaderPartial.cshtml",
+              "RelativeDocumentMoniker": "eshop_MVC\\Views\\Shared\\_HeaderPartial.cshtml",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Views\\Shared\\_HeaderPartial.cshtml",
+              "RelativeToolTip": "eshop_MVC\\Views\\Shared\\_HeaderPartial.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwDkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T03:25:53.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "eshop_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "eshop_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T03:24:03.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "eshop_MVC\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Services\\CategoryService.cs",
+              "RelativeToolTip": "eshop_MVC\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwIIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T02:57:43.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentWithProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Models\\CommentWithProductViewModel.cs",
+              "RelativeDocumentMoniker": "eshop_MVC\\Models\\CommentWithProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Models\\CommentWithProductViewModel.cs",
+              "RelativeToolTip": "eshop_MVC\\Models\\CommentWithProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T03:03:30.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "RelativeDocumentMoniker": "eshop_MVC\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "RelativeToolTip": "eshop_MVC\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T02:48:26.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "eshop_MVC\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-AP\u0130\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "eshop_MVC\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T02:45:19.483Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

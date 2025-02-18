@@ -1,0 +1,100 @@
+﻿@using eshop_MVC.Helpers
+@model eshop_MVC.Models.OrderModel
+@{
+    ViewData["Title"] = "Sipariş Detayı";
+}
+<h1 class="my-4">Sipariş Detayı</h1>
+
+<div class="card">
+    <div class="card-header bg-dark text-white">
+        Sipariş ID: @Model.Id
+    </div>
+    <div class="card-body">
+        <p class="badge @GetStatusBadge(Model.OrderStatus)"><strong>Durum:</strong> >@GetStatusText(Model.OrderStatus)</p>
+        <p><strong>Sipariş Tarihi:</strong> @Model.CreatedDate.ToShortDateString()</p>
+        <p><strong>Toplam Tutar:</strong> @Model.TotalAmount.ToString("C")</p>
+
+        <h3>Fatura Bilgileri</h3>
+        @{
+            var user = ViewData["User"] as UserProfileModel;
+            var userId = ViewData["UserId"] as string;  // UserId'yi ViewData'dan alıyoruz
+        }
+
+        @if (user != null)
+        {
+            <p><strong>Ad Soyad:</strong> @user.FirstName  @user.LastName</p>
+            <p><strong>Adres:</strong> @user.Address</p>
+            <p><strong>E-posta:</strong> @user.Email</p>
+            <p><strong>Telefon:</strong> @user.PhoneNumber</p>
+        }
+        else
+        {
+            <p>Kullanıcı bilgisi bulunamadı.</p>
+        }
+
+        <p><strong>Kullanıcı ID:</strong> @userId</p>
+
+
+    </div>
+</div>
+
+<h2 class="mt-4">Sipariş Kalemleri</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Ürün ID</th>
+            <th scope="col">Ürün Adı</th>
+            <th scope="col">Adet</th>
+            <th scope="col">Birim Fiyat</th>
+            <th scope="col">Ürün Resmi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderItems)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.UnitPrice</td>
+                <td><img src="http://localhost:5051/@item.Product.ImageUrl" alt="Product Image" width="100" class="img-fluid" /></td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<a asp-action="Index" class="btn btn-secondary mt-3">
+    <i class="bi bi-arrow-left"></i> Geri Dön
+</a>
+
+@functions {
+    private string GetStatusBadge(OrderStatus status)
+    {
+        return status switch
+        {
+            OrderStatus.Pending => "bg-warning text-dark",
+            OrderStatus.Processing => "bg-info text-dark",
+            OrderStatus.Shipped => "bg-primary",
+            OrderStatus.Delivered => "bg-success",
+            OrderStatus.Cancelled => "bg-danger",
+            OrderStatus.Returned => "bg-secondary",
+            OrderStatus.Failed => "bg-dark",
+            _ => "bg-light text-dark",
+        };
+    }
+
+    private string GetStatusText(OrderStatus status)
+    {
+        return status switch
+        {
+            OrderStatus.Pending => "Beklemede",
+            OrderStatus.Processing => "İşleniyor",
+            OrderStatus.Shipped => "Kargoya Verildi",
+            OrderStatus.Delivered => "Teslim Edildi",
+            OrderStatus.Cancelled => "İptal Edildi",
+            OrderStatus.Returned => "İade Edildi",
+            OrderStatus.Failed => "Başarısız",
+            _ => "Bilinmiyor",
+        };
+    }
+}

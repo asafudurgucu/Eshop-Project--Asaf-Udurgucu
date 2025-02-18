@@ -1,0 +1,185 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "Category Products";
+    var categoryName = ViewData["CategoryName"];
+}
+
+<section class="popular-products py-3 mt-5">
+    <br />
+    <br />
+    <br />
+    <div class="container">
+        <h2 class="text-center mb-4">@categoryName Kategorisindeki Ürünler</h2>
+
+        <!-- Arama Kutusu -->
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <input type="text" id="searchInput" class="form-control" placeholder="Ürün ara...">
+            </div>
+        </div>
+
+        <div class="row" id="productContainer">
+            @if (Model.Count() > 0)
+            {
+                @foreach (var product in Model)
+                {
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4 product-card">
+                        <div class="item shadow-sm p-3 mb-5 bg-white rounded" style="transition: box-shadow 0.3s ease;">
+                            <div onclick="window.location.href='@Url.Action("Details", "Product", new { id = product.Id })'" style="cursor: pointer;">
+                                <img src="http://localhost:5051/@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                                <div class="card-body">
+                                    <h5 class="card-title">@product.Name</h5>
+                                    <p class="card-text">@($"{product.Price:C2}")</p>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a asp-area="" asp-controller="Basket" asp-action="AddToBasket" asp-route-productId="@product.Id" asp-route-quantity="1" class="btn btn-dark btn-block">Sepete Ekle</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12">
+                    <div class="alert alert-warning" role="alert">
+                        Bu kategoride ürün bulunmamaktadır.
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Stil -->
+<style>
+    /* Banner Style */
+    #carouselExampleIndicators {
+        max-width: 1280px;
+        height: 500px;
+        margin: 0 auto; /* Ortada konumlandır */
+    }
+
+        #carouselExampleIndicators img {
+            width: 100%; /* Resmin tam genişliğe yayılmasını sağlar */
+            height: 500px;
+            object-fit: cover; /* Resmin boyutlarıyla uyumlu olmasını sağlar */
+        }
+
+    /* Category List */
+    .category-list {
+        list-style: none;
+        padding: 10px;
+        margin: 20px 10px 20px 0;
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .category-item {
+        padding: 15px 20px;
+        border-bottom: 1px solid #ddd;
+        font-size: 16px;
+        font-weight: 500;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .category-item:last-child {
+            border-bottom: none;
+        }
+
+        .category-item a {
+            text-decoration: none;
+            color: #343a40;
+            display: block;
+            width: 100%;
+            transition: color 0.3s ease;
+        }
+
+        /* Hover ve Aktif Etki */
+        .category-item:hover {
+            background-color: #1D1616;
+            color: #fff;
+        }
+
+            .category-item:hover a {
+                color: #fff;
+            }
+
+    /* Scrollbar Stili */
+    .category-list::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .category-list::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 4px;
+    }
+
+        .category-list::-webkit-scrollbar-thumb:hover {
+            background-color: #aaa;
+        }
+
+    /* Ürün Listesi */
+    .product-card {
+        position: relative;
+    }
+
+    .item {
+        border: 1px solid #ddd;
+        transition: box-shadow 0.3s ease;
+    }
+
+        .item:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+    .thumb img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .hover-content {
+        display: none;
+    }
+
+    .item:hover .hover-content {
+        display: block;
+    }
+
+    .down-content {
+        text-align: center;
+    }
+
+        .down-content h4 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .down-content span {
+            font-size: 16px;
+            color: #555;
+        }
+
+    .stars {
+        display: none; /* Bu kısmı ekledim */
+    }
+</style>
+
+<!-- JavaScript ile Arama -->
+<script>
+    document.getElementById("searchInput").addEventListener("keyup", function () {
+        var input = document.getElementById("searchInput").value.toLowerCase();
+        var productCards = document.getElementsByClassName("product-card");
+
+        for (var i = 0; i < productCards.length; i++) {
+            var productName = productCards[i].getElementsByClassName("card-title")[0].innerText.toLowerCase();
+            if (productName.includes(input)) {
+                productCards[i].style.display = "";
+            } else {
+                productCards[i].style.display = "none";
+            }
+        }
+    });
+</script>
