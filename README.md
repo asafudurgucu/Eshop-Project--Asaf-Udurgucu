@@ -6,7 +6,7 @@ Bu proje, **Asaf Üdürgücü** tarafından geliştirilmiş modern bir e-ticaret
 
 - **Ürün Kataloğu**: Kullanıcılar, farklı kategorilerdeki ürünleri keşfedebilir ve ürün detaylarına ulaşabilir.
 - **Sepet ve Ödeme**: Kullanıcılar ürünleri sepete ekleyebilir, ödeme işlemlerini gerçekleştirebilir ve sipariş takibi yapabilir.
-- **İndirim Kuponları**: Kullanıcılar, belirli indirim kuponlarını kullanarak alışverişlerinde avantaj elde edebilir.
+- **İndirim Kuponları**: Kullanıcılar, belirli indirim kuponlarını kullanarak alışverişlerinde avantaj elde edebilir. (örn/"MERHABA20")
 - **Responsive Tasarım**: Mobil uyumlu tasarım sayesinde kullanıcı deneyimi her cihazda optimize edilmiştir.
 - **Admin Paneli**: Yöneticiler, ürün ekleyebilir ve siparişleri görüntüleyebilir. Admin paneline erişmek için `/admin` yolunu kullanabilirsiniz.
 - **Veri Yönetimi**: API'den MVC'ye veri çekimi sağlanarak kullanıcı arayüzünde dinamik veri gösterimi yapılır.
@@ -28,3 +28,5 @@ Admin paneline erişmek için şu kullanıcı bilgilerini kullanabilirsiniz (Sad
 - **Generic Repository Deseni**: Veritabanı işlemleri için generic repository desenleri kullanılarak, CRUD işlemleri merkezi bir yapıya oturtulmuştur.
 - **HTML/CSS/JavaScript**: Kullanıcı arayüzü için HTML, CSS ve JavaScript ile şık ve interaktif bir tasarım oluşturuldu.
 - **Bootstrap**: Responsive tasarım için Bootstrap framework'ü kullanıldı.
+## Ürün resimleri admin panelinden sonradan girildiği için migration uptadeden sonra gözükmiyicektir 
+## 
