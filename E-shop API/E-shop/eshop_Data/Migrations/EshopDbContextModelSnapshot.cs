@@ -281,8 +281,8 @@ namespace eshop_Data.Migrations
                             AccessFailedCount = 0,
                             Address = "",
                             City = "",
-                            ConcurrencyStamp = "10ab6855-7563-409c-bca2-e685071734cd",
-                            DateOfBirth = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7760),
+                            ConcurrencyStamp = "3557b6b7-8478-4eb3-89ee-8f8a37c8d51d",
+                            DateOfBirth = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9184),
                             Email = "adminuser@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Admin",
@@ -290,10 +290,10 @@ namespace eshop_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMINUSER@GMAIL.COM",
                             NormalizedUserName = "ADMINUSER@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGwHs0fGFaegSPAyiHvitSPZooXHjxEuct/odpfGBkdeA6aBmn3/FN42FuGnmUURgQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEH+MUllpFShZY2bo/bCfIOJcesmwV3YmRkyCDtoKj5Hgby7CpUpZo/bmloggoJKDow==",
                             PhoneNumber = "",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a2467d7e-2b72-43ec-bd02-cbafc24f7a63",
+                            SecurityStamp = "ac9157bf-6416-4540-b94f-3d0affcb2309",
                             TwoFactorEnabled = false,
                             UserName = "adminuser@gmail.com"
                         },
@@ -303,8 +303,8 @@ namespace eshop_Data.Migrations
                             AccessFailedCount = 0,
                             Address = "",
                             City = "",
-                            ConcurrencyStamp = "8652bf77-14ca-4220-906b-871d4b91c17d",
-                            DateOfBirth = new DateTime(2025, 2, 16, 21, 51, 51, 317, DateTimeKind.Local).AddTicks(2695),
+                            ConcurrencyStamp = "a797fc61-96ae-460f-9178-2e60f3164c26",
+                            DateOfBirth = new DateTime(2025, 2, 19, 8, 59, 0, 178, DateTimeKind.Local).AddTicks(1689),
                             Email = "normaluser@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Normal",
@@ -312,10 +312,10 @@ namespace eshop_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "NORMALUSER@GMAIL.COM",
                             NormalizedUserName = "NORMALUSER@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGFwKd7ytIor0323k0F3f3GOT3ylX2P6/93yeJLh8qoIySnkuvTnynwFANKZDAAJIA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEByE6STGFUc2waVdBOXGQ/5VxvDcW5AHXkp+Jw4vICqSKPXjpZyhIhVilOIvaaIyKg==",
                             PhoneNumber = "",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ce455470-6b55-4e22-b31a-b62b95dc1635",
+                            SecurityStamp = "f0c0227a-42ac-413b-a855-65a706218673",
                             TwoFactorEnabled = false,
                             UserName = "normaluser@gmail.com"
                         });
@@ -353,7 +353,7 @@ namespace eshop_Data.Migrations
                         {
                             Id = 1,
                             ApplicationUserId = "c0b7fef7-df2b-4857-9b3d-bc8967ad19ac",
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 411, DateTimeKind.Local).AddTicks(7080),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 218, DateTimeKind.Local).AddTicks(4195),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
                         },
@@ -361,7 +361,7 @@ namespace eshop_Data.Migrations
                         {
                             Id = 2,
                             ApplicationUserId = "14a0183f-1e96-4930-a83d-6ef5f22d8c09",
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 411, DateTimeKind.Local).AddTicks(7102),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 218, DateTimeKind.Local).AddTicks(4212),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
                         });
@@ -440,7 +440,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6823),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8726),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Elektronik",
@@ -449,7 +449,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6843),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8740),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Mobil Cihazlar",
@@ -458,7 +458,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6846),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8741),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Televizyonlar",
@@ -467,7 +467,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6848),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8742),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Bilgisayarlar",
@@ -476,7 +476,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6850),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8744),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Aksesuarlar",
@@ -485,7 +485,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6852),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8745),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Apple",
@@ -494,7 +494,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6854),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8746),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Samsung",
@@ -503,7 +503,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6855),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8747),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "LG",
@@ -512,7 +512,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6857),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8748),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Huawei",
@@ -521,7 +521,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6859),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8749),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sony",
@@ -530,7 +530,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6861),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8750),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Lenovo",
@@ -539,7 +539,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6862),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8751),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Dell",
@@ -548,7 +548,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6864),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8752),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Xiaomi",
@@ -557,7 +557,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6866),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8753),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Akıllı Saatler",
@@ -566,7 +566,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6868),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8754),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Tabletler",
@@ -575,7 +575,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(6869),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8755),
                             Description = "",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Ana Sayfa",
@@ -690,7 +690,7 @@ namespace eshop_Data.Migrations
                         {
                             Id = 1,
                             Code = "MERHABA20",
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 411, DateTimeKind.Local).AddTicks(7172),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 218, DateTimeKind.Local).AddTicks(4234),
                             DiscountPercentage = 20,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -699,7 +699,7 @@ namespace eshop_Data.Migrations
                         {
                             Id = 2,
                             Code = "INDIRIM10",
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 411, DateTimeKind.Local).AddTicks(7174),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 218, DateTimeKind.Local).AddTicks(4235),
                             DiscountPercentage = 10,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -708,7 +708,7 @@ namespace eshop_Data.Migrations
                         {
                             Id = 3,
                             Code = "HOŞGELDIN15",
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 411, DateTimeKind.Local).AddTicks(7176),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 218, DateTimeKind.Local).AddTicks(4236),
                             DiscountPercentage = 15,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -802,7 +802,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 230,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7551),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9085),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             OrderId = 130,
                             ProductId = 50,
@@ -891,8 +891,8 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7035),
-                            ImageUrl = "/images/product-1.jpg",
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8846),
+                            ImageUrl = "images/38e038fb-146d-41b7-bd17-fa8285d9980d.webp",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "iPhone 14",
                             Price = 999.99m,
@@ -902,8 +902,8 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7047),
-                            ImageUrl = "/images/product-2.jpg",
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8852),
+                            ImageUrl = "images/7facead8-3650-418a-b685-680ce2ca8837.png",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Samsung Galaxy S23",
                             Price = 899.99m,
@@ -913,8 +913,8 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7050),
-                            ImageUrl = "/images/product-3.jpg",
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8854),
+                            ImageUrl = "images/a1d95372-6e37-4972-bd5d-ee761a49c2f4.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "LG OLED TV",
                             Price = 1299.99m,
@@ -924,8 +924,8 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7053),
-                            ImageUrl = "/images/product-4.jpg",
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8855),
+                            ImageUrl = "images/3c39749c-cb04-4d94-b43b-ba15ac0faa06.png",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sony Bravia 65",
                             Price = 1799.99m,
@@ -935,8 +935,8 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7055),
-                            ImageUrl = "/images/product-5.jpg",
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8857),
+                            ImageUrl = "images/58dc13d3-b448-47b5-a466-e526fe648d60.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Apple MacBook Pro",
                             Price = 2399.99m,
@@ -946,8 +946,8 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7059),
-                            ImageUrl = "/images/product-6.jpg",
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8859),
+                            ImageUrl = "images/a84c00c6-1ca5-4b84-9b6f-66e9866df1fb.png",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Samsung Galaxy Tab S8",
                             Price = 649.99m,
@@ -957,8 +957,8 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7062),
-                            ImageUrl = "/images/product-7.jpg",
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8861),
+                            ImageUrl = "images/f72c266f-04db-413c-9b9b-12f8206954be.png",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Dell XPS 13",
                             Price = 1199.99m,
@@ -968,8 +968,8 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7065),
-                            ImageUrl = "/images/product-8.jpg",
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8862),
+                            ImageUrl = "images/64ebd99e-00a8-428e-82ae-ffcf6d242f7d.png",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Huawei MateBook X",
                             Price = 1599.99m,
@@ -979,7 +979,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7067),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8863),
                             ImageUrl = "/images/product-9.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Xiaomi Mi 11",
@@ -990,7 +990,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7071),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8865),
                             ImageUrl = "/images/product-10.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Lenovo ThinkPad X1",
@@ -1001,7 +1001,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7074),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8867),
                             ImageUrl = "/images/product-11.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Apple AirPods Pro",
@@ -1012,7 +1012,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7077),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8868),
                             ImageUrl = "/images/product-12.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Samsung Galaxy Watch 5",
@@ -1023,7 +1023,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7079),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8869),
                             ImageUrl = "/images/product-13.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "LG 27GL850-B Monitor",
@@ -1034,7 +1034,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7082),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8871),
                             ImageUrl = "/images/product-14.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sony WH-1000XM5",
@@ -1045,7 +1045,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7085),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8872),
                             ImageUrl = "/images/product-15.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Huawei P50 Pro",
@@ -1056,7 +1056,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7150),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8873),
                             ImageUrl = "/images/product-16.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "iPad Pro 12.9",
@@ -1067,7 +1067,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7153),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8875),
                             ImageUrl = "/images/product-17.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Apple Watch Series 7",
@@ -1078,7 +1078,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7158),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8877),
                             ImageUrl = "/images/product-18.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Samsung QLED 65in TV",
@@ -1089,7 +1089,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7160),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8905),
                             ImageUrl = "/images/product-19.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Xiaomi Mi 10",
@@ -1100,7 +1100,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7163),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8907),
                             ImageUrl = "/images/product-20.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sony Xperia 1 II",
@@ -1111,7 +1111,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 21,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7165),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8908),
                             ImageUrl = "/images/product-21.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Apple MacBook Air",
@@ -1122,7 +1122,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 22,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7168),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8910),
                             ImageUrl = "/images/product-22.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Samsung Galaxy Buds Pro",
@@ -1133,7 +1133,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 23,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7171),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8911),
                             ImageUrl = "/images/product-23.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "LG Gram 17",
@@ -1144,7 +1144,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 24,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7173),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8913),
                             ImageUrl = "/images/product-24.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sony Alpha 7 III",
@@ -1155,7 +1155,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 25,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7176),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8914),
                             ImageUrl = "/images/product-25.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Apple iPad Mini",
@@ -1166,7 +1166,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 26,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7179),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8915),
                             ImageUrl = "/images/product-26.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Huawei FreeBuds Pro",
@@ -1177,7 +1177,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 27,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7181),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8917),
                             ImageUrl = "/images/product-27.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Xiaomi Mi Band 6",
@@ -1188,7 +1188,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 28,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7184),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8918),
                             ImageUrl = "/images/product-28.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Samsung 970 EVO Plus SSD",
@@ -1199,7 +1199,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 29,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7186),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8919),
                             ImageUrl = "/images/product-29.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Lenovo Legion 5",
@@ -1210,7 +1210,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 30,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7189),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8921),
                             ImageUrl = "/images/product-30.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Dell Alienware X17",
@@ -1221,7 +1221,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 31,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7191),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8922),
                             ImageUrl = "/images/product-31.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sony PlayStation 5",
@@ -1232,7 +1232,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 32,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7194),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8924),
                             ImageUrl = "/images/product-32.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Apple TV 4K",
@@ -1243,7 +1243,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 33,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7196),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8925),
                             ImageUrl = "/images/product-33.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Samsung Odyssey G7 Monitor",
@@ -1254,7 +1254,7 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 34,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7200),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8927),
                             ImageUrl = "/images/product-34.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Xiaomi Mi Robot Vacuum",
@@ -1265,177 +1265,12 @@ namespace eshop_Data.Migrations
                         new
                         {
                             Id = 35,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7202),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8928),
                             ImageUrl = "/images/product-35.jpg",
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Lenovo Smart Clock",
                             Price = 79.99m,
                             Properties = "Lenovo Smart Clock, Google Assistant ile akıllı saat, uyandırma alarmı ve diğer özellikler.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 36,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7205),
-                            ImageUrl = "/images/product-36.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Huawei Watch GT 3",
-                            Price = 249.99m,
-                            Properties = "Huawei Watch GT 3, 46mm ekran, 14 güne kadar pil ömrü, fitness ve sağlık takibi.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 37,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7207),
-                            ImageUrl = "/images/product-37.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Sony Xperia 5 III",
-                            Price = 1049.99m,
-                            Properties = "Sony Xperia 5 III, 128GB, 6.1 inç OLED ekran, 120Hz yenileme hızı ve mükemmel video çekim özellikleri.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 38,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7210),
-                            ImageUrl = "/images/product-38.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Apple iMac 24\" M1",
-                            Price = 1299.99m,
-                            Properties = "Apple iMac 24\" M1, 8GB RAM, 256GB SSD, parlak ve canlı renklerle tasarlanmış masaüstü bilgisayar.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 39,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7212),
-                            ImageUrl = "/images/product-39.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Samsung Galaxy Note 20 Ultra",
-                            Price = 1299.99m,
-                            Properties = "Samsung Galaxy Note 20 Ultra, 256GB, 108MP ana kamera, 5G desteği ile hızlı bağlantı.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 40,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7215),
-                            ImageUrl = "/images/product-40.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Xiaomi Redmi Note 11 Pro",
-                            Price = 249.99m,
-                            Properties = "Xiaomi Redmi Note 11 Pro, 128GB, 6.67 inç AMOLED ekran, 108MP kamera.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 41,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7217),
-                            ImageUrl = "/images/product-41.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Lenovo Yoga 9i",
-                            Price = 1899.99m,
-                            Properties = "Lenovo Yoga 9i, 16GB RAM, 512GB SSD, 14 inç 4K ekran, dönüştürülebilir dizüstü bilgisayar.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 42,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7220),
-                            ImageUrl = "/images/product-42.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Apple Magic Mouse",
-                            Price = 79.99m,
-                            Properties = "Apple Magic Mouse, kablosuz, çoklu dokunmatik yüzey, zarif ve kompakt tasarım.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 43,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7222),
-                            ImageUrl = "/images/product-43.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Sony WH-XB900N",
-                            Price = 249.99m,
-                            Properties = "Sony WH-XB900N, Kablosuz kulaklık, ekstra bass özelliği ve gürültü engelleme.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 44,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7224),
-                            ImageUrl = "/images/product-44.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Apple HomePod Mini",
-                            Price = 99.99m,
-                            Properties = "Apple HomePod Mini, Akıllı hoparlör, yüksek kaliteli ses ve Apple ekosistemine uyum.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 45,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7227),
-                            ImageUrl = "/images/product-45.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Samsung T7 Touch SSD",
-                            Price = 149.99m,
-                            Properties = "Samsung T7 Touch, 1TB SSD, parmak izi güvenliği, ultra hızlı veri transferi.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 46,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7229),
-                            ImageUrl = "/images/product-46.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Xiaomi Mi 11 Lite",
-                            Price = 369.99m,
-                            Properties = "Xiaomi Mi 11 Lite, 128GB, Snapdragon 732G, 6.55 inç AMOLED ekran, ince ve şık tasarım.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 47,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7232),
-                            ImageUrl = "/images/product-47.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Lenovo IdeaPad Flex 5",
-                            Price = 849.99m,
-                            Properties = "Lenovo IdeaPad Flex 5, 8GB RAM, 512GB SSD, 14 inç ekran, dönüştürülebilir laptop.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 48,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7287),
-                            ImageUrl = "/images/product-48.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Sony Bravia A80J",
-                            Price = 2199.99m,
-                            Properties = "Sony Bravia A80J, 65 inç OLED, 4K, Google TV ile akıllı özellikler ve mükemmel görüntü kalitesi.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 49,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7290),
-                            ImageUrl = "/images/product-49.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Apple Pencil 2. Nesil",
-                            Price = 129.99m,
-                            Properties = "Apple Pencil 2. Nesil, iPad Pro ve iPad Air için hassas çizim ve not alma aracı.",
-                            isActive = true
-                        },
-                        new
-                        {
-                            Id = 50,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7293),
-                            ImageUrl = "/images/product-50.jpg",
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Samsung Galaxy Z Fold 4",
-                            Price = 1799.99m,
-                            Properties = "Samsung Galaxy Z Fold 4, katlanabilir ekran, 12GB RAM, 512GB depolama alanı ile güçlü bir cihaz.",
                             isActive = true
                         });
                 });
@@ -1471,7 +1306,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 1,
                             CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7393),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8973),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1480,7 +1315,25 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 2,
                             CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7396),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8975),
+                            Id = 0,
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            isActive = true
+                        },
+                        new
+                        {
+                            ProductId = 3,
+                            CategoryId = 12,
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8976),
+                            Id = 0,
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            isActive = true
+                        },
+                        new
+                        {
+                            ProductId = 4,
+                            CategoryId = 12,
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8977),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1489,7 +1342,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 5,
                             CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7398),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8978),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1498,61 +1351,25 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 6,
                             CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7399),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8978),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
                         },
                         new
                         {
-                            ProductId = 9,
+                            ProductId = 7,
                             CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7400),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8979),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
                         },
                         new
                         {
-                            ProductId = 13,
+                            ProductId = 8,
                             CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7401),
-                            Id = 0,
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            isActive = true
-                        },
-                        new
-                        {
-                            ProductId = 15,
-                            CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7403),
-                            Id = 0,
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            isActive = true
-                        },
-                        new
-                        {
-                            ProductId = 16,
-                            CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7404),
-                            Id = 0,
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            isActive = true
-                        },
-                        new
-                        {
-                            ProductId = 19,
-                            CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7405),
-                            Id = 0,
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            isActive = true
-                        },
-                        new
-                        {
-                            ProductId = 20,
-                            CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7406),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8980),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1561,7 +1378,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 3,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7407),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8981),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1570,7 +1387,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7408),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8982),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1579,7 +1396,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 5,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7410),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8982),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1588,7 +1405,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 7,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7411),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8983),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1597,7 +1414,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 8,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7412),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8983),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1606,7 +1423,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 10,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7413),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8984),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1615,7 +1432,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 11,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7414),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8985),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1624,7 +1441,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 12,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7416),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8985),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1633,7 +1450,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 13,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7417),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8986),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1642,7 +1459,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 14,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7418),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8987),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1651,7 +1468,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 17,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7419),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8987),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1660,7 +1477,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 18,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7420),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8988),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1669,7 +1486,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 21,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7421),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8989),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1678,7 +1495,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 22,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7422),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8989),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1687,7 +1504,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 23,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7424),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8990),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1696,7 +1513,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 24,
                             CategoryId = 7,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7425),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8991),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1705,7 +1522,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 25,
                             CategoryId = 4,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7426),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8991),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1714,7 +1531,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 26,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7427),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8992),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1723,7 +1540,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 27,
                             CategoryId = 8,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7428),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8992),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1732,7 +1549,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 28,
                             CategoryId = 9,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7429),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8993),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1741,7 +1558,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 29,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7430),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8994),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1750,7 +1567,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 30,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7432),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8994),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1759,7 +1576,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 31,
                             CategoryId = 10,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7433),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8995),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1768,7 +1585,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 32,
                             CategoryId = 11,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7434),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(8995),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1777,7 +1594,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 33,
                             CategoryId = 6,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7435),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9020),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1786,7 +1603,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 34,
                             CategoryId = 12,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7436),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9021),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1795,7 +1612,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 35,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7437),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9021),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1804,7 +1621,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 36,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7439),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9022),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1813,7 +1630,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 37,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7440),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9022),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1822,7 +1639,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 38,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7441),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9023),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1831,7 +1648,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 39,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7442),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9024),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1840,7 +1657,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 40,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7443),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9024),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1849,7 +1666,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 41,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7444),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9025),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1858,7 +1675,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 42,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7445),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9026),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1867,7 +1684,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 43,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7448),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9026),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1876,7 +1693,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 44,
                             CategoryId = 11,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7449),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9027),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1885,7 +1702,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 45,
                             CategoryId = 9,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7450),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9028),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1894,7 +1711,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 46,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7451),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9028),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1903,7 +1720,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 47,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7452),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9029),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1912,7 +1729,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 48,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7454),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9029),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1921,7 +1738,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 49,
                             CategoryId = 5,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7455),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9030),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -1930,7 +1747,7 @@ namespace eshop_Data.Migrations
                         {
                             ProductId = 50,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 2, 16, 21, 51, 51, 236, DateTimeKind.Local).AddTicks(7456),
+                            CreatedDate = new DateTime(2025, 2, 19, 8, 59, 0, 137, DateTimeKind.Local).AddTicks(9031),
                             Id = 0,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             isActive = true
@@ -2012,6 +1829,28 @@ namespace eshop_Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Settings");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 3,
+                            AboutBannerPath = "images/0f28bbb8-1897-43b0-aef1-0598efcfccc4.png",
+                            AboutPhotoPath = "images/f3651d17-2c1e-4fe8-8bc6-9a4922a29043.png",
+                            AboutText = "Biz, geniş ürün yelpazesi sunan lider bir e-ticaret şirketiyiz.",
+                            AboutTextTitle = "Hakkımızda",
+                            Banner1Path = "images/e809f6cf-8fd0-4217-bbd9-60b52dd0620c.png",
+                            Banner2Path = "images/deb0b266-1e12-49d2-97ff-fd19c2ebb8b8.png",
+                            Banner3Path = "images/232d72b1-c24c-41f0-bc0f-c396e0a16347.png",
+                            ContactBannerPath = "images/eefaa8e9-e2b7-4cb8-85e1-345994ef9420.png",
+                            FooterLogoPath = "images/9a0ca075-205b-439e-ac0e-6a607b52a09b.png",
+                            FooterText = "All Rights Reserved.",
+                            LogoPath = "images/18e44284-f31f-497b-81a1-62da2a31fea9.png",
+                            MapLocation = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.073292073073!2d-73.9854286845949!3d40.74881797932569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f3f3b3b3f%3A0x1c3bb99243deb742!2sEmpire%20State%20Building!5e0!3m2!1str!2str!4v1640730000000!5m2!1str!2str",
+                            SliderText = "E-ticaret sitemize hoş geldiniz! Sizin için en iyi ürünleri burada bulabilirsiniz.",
+                            SocialMediaUrl = "https://www.facebook.com/",
+                            SocialMediaUrl2 = "https://www.instagram.com/",
+                            SocialMediaUrl3 = "https://www.twitter.com/"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qVLcg80WXEiATRdaR6sOHWWoqsm29nmgp5I5eEoGXpg=",
+  "Hash": "QCA5t1TKagOMP2NrSxDXHWk1EDMhjg42xI/hYUqhO/M=",
   "Source": "eshop_MVC",
   "BasePath": "_content/eshop_MVC",
   "Mode": "Default",
@@ -1233,6 +1233,101 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\dashboard\\Rectangle.jpg"
     },
     {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-1.png",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/images/faces-clipart/pic-1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-2.png",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/images/faces-clipart/pic-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-3.png",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/images/faces-clipart/pic-3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-4.png",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/images/faces-clipart/pic-4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-8.png",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/images/faces-clipart/pic-8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-8.png"
+    },
+    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces\\face1.jpg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -1744,101 +1839,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces\\face9.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-1.png",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/images/faces-clipart/pic-1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-1.png"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-2.png",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/images/faces-clipart/pic-2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-2.png"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-3.png",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/images/faces-clipart/pic-3.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-3.png"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-4.png",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/images/faces-clipart/pic-4.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-4.png"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\faces-clipart\\pic-8.png",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/images/faces-clipart/pic-8.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\faces-clipart\\pic-8.png"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\favicon.png",
@@ -2563,25 +2563,6 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\lightbox\\thumb-v-y-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\logo.svg",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/images/logo.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\logo.svg"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\logo-mini.svg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -2599,6 +2580,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\logo-mini.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\logo.svg",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/images/logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\logo.svg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\images\\samples\\1280x768\\1.jpg",
@@ -4235,25 +4235,6 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\form-addons.js"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\js\\formpickers.js",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/js/formpickers.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\formpickers.js"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\js\\form-repeater.js",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -4290,6 +4271,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\form-validation.js"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\js\\formpickers.js",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/js/formpickers.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\formpickers.js"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\js\\google-charts.js",
@@ -4520,25 +4520,6 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\listify.js"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\js\\mapael.js",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/js/mapael.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\mapael.js"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\js\\mapael_example_1.js",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -4575,6 +4556,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\mapael_example_2.js"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\js\\mapael.js",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/js/mapael.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\mapael.js"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\js\\maps.js",
@@ -8244,25 +8244,6 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\er.svg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\es.svg",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/vendors/flag-icon-css/flags/1x1/es.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\es.svg"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\es-ca.svg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -8280,6 +8261,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\es-ca.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\es.svg",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/vendors/flag-icon-css/flags/1x1/es.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\es.svg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\et.svg",
@@ -8453,25 +8453,6 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\ga.svg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\gb.svg",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/vendors/flag-icon-css/flags/1x1/gb.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\gb.svg"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\gb-eng.svg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -8546,6 +8527,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\gb-wls.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\gb.svg",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/vendors/flag-icon-css/flags/1x1/gb.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\gb.svg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\1x1\\gd.svg",
@@ -13127,25 +13127,6 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\er.svg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\es.svg",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/vendors/flag-icon-css/flags/4x3/es.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\es.svg"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\es-ca.svg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -13163,6 +13144,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\es-ca.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\es.svg",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/vendors/flag-icon-css/flags/4x3/es.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\es.svg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\et.svg",
@@ -13336,25 +13336,6 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\ga.svg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\gb.svg",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/vendors/flag-icon-css/flags/4x3/gb.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\gb.svg"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\gb-eng.svg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -13429,6 +13410,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\gb-wls.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\gb.svg",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/vendors/flag-icon-css/flags/4x3/gb.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\gb.svg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\flag-icon-css\\flags\\4x3\\gd.svg",
@@ -16775,6 +16775,25 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\js\\vendor.bundle.base.js"
     },
     {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\jvectormap\\jquery-jvectormap.css",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -16811,25 +16830,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\jvectormap\\jquery-jvectormap.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\jvectormap\\jquery-jvectormap-world-mill-en.js",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\jvectormap\\jquery-jvectormap-world-mill-en.js"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
@@ -17079,6 +17079,25 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.js"
     },
     {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/assets/vendors/select2-bootstrap-theme/select2-bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css"
+    },
+    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\select2\\select2.min.css",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -17115,25 +17134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\select2\\select2.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/assets/vendors/select2-bootstrap-theme/select2-bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\assets\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\assets\\vendors\\typeahead.js\\typeahead.bundle.min.js",
@@ -17839,6 +17839,25 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\AdminPaneliLOGOV2.png"
     },
     {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example1-300x300.jpg",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/img/examples/example1-300x300.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example1-300x300.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example1.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -17856,25 +17875,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example1.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example10.jpeg",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example10.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example10.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example10-300x300.jpg",
@@ -17896,12 +17896,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example10-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example11.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example10.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example11.jpeg",
+      "RelativePath": "admin/img/examples/example10.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -17912,7 +17912,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example11.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example10.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example11-300x300.jpg",
@@ -17934,12 +17934,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example11-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example12.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example11.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example12.jpeg",
+      "RelativePath": "admin/img/examples/example11.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -17950,7 +17950,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example12.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example11.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example12-300x300.jpg",
@@ -17972,12 +17972,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example12-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example1-300x300.jpg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example12.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example1-300x300.jpg",
+      "RelativePath": "admin/img/examples/example12.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -17988,26 +17988,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example1-300x300.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example2.jpeg",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example2.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example2.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example12.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example2-300x300.jpg",
@@ -18029,12 +18010,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example2-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example3.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example2.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example3.jpeg",
+      "RelativePath": "admin/img/examples/example2.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18045,7 +18026,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example3.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example2.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example3-300x300.jpg",
@@ -18067,12 +18048,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example3-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example4.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example3.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example4.jpeg",
+      "RelativePath": "admin/img/examples/example3.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18083,7 +18064,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example4.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example3.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example4-300x300.jpg",
@@ -18105,12 +18086,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example4-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example5.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example4.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example5.jpeg",
+      "RelativePath": "admin/img/examples/example4.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18121,7 +18102,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example5.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example4.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example5-300x300.jpg",
@@ -18143,12 +18124,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example5-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example6.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example5.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example6.jpeg",
+      "RelativePath": "admin/img/examples/example5.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18159,7 +18140,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example6.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example5.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example6-300x300.jpg",
@@ -18181,12 +18162,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example6-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example7.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example6.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example7.jpeg",
+      "RelativePath": "admin/img/examples/example6.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18197,7 +18178,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example7.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example6.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example7-300x300.jpg",
@@ -18219,12 +18200,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example7-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example8.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example7.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example8.jpeg",
+      "RelativePath": "admin/img/examples/example7.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18235,7 +18216,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example8.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example7.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example8-300x300.jpg",
@@ -18257,12 +18238,12 @@
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example8-300x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example9.jpeg",
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example8.jpeg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
       "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/img/examples/example9.jpeg",
+      "RelativePath": "admin/img/examples/example8.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -18273,7 +18254,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example9.jpeg"
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example8.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example9-300x300.jpg",
@@ -18293,6 +18274,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example9-300x300.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\example9.jpeg",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/img/examples/example9.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\img\\examples\\example9.jpeg"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\img\\examples\\logo.svg",
@@ -24147,25 +24147,6 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\js\\plugin\\chart.js\\chart.min.js",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/js/plugin/chart.js/chart.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\js\\plugin\\chart.js\\chart.min.js"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\js\\plugin\\chart-circle\\circles.min.js",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -24183,6 +24164,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\js\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\js\\plugin\\chart.js\\chart.min.js",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/js/plugin/chart.js/chart.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\js\\plugin\\chart.js\\chart.min.js"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\js\\plugin\\datatables\\datatables.min.js",
@@ -24280,6 +24280,25 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\plugin\\gmaps\\gmaps.js"
     },
     {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "admin/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\js\\plugin\\jquery.magnific-popup\\jquery.magnific-popup.min.js",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -24335,25 +24354,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\js\\plugin\\jquery.validate\\jquery.validate.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "admin/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\admin\\js\\plugin\\jsvectormap\\jsvectormap.min.js",
@@ -24850,25 +24850,6 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\fonts\\flexslider-icon.woff"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\fonts\\FontAwesome.otf",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "ui/assets/fonts/FontAwesome.otf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ui\\assets\\fonts\\FontAwesome.otf"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\fonts\\fontawesome-webfont.eot",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -24962,6 +24943,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ui\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\fonts\\FontAwesome.otf",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "ui/assets/fonts/FontAwesome.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ui\\assets\\fonts\\FontAwesome.otf"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\fonts\\slick.eot",
@@ -25078,25 +25078,6 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\images\\aaaaa.jpg"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\images\\About.png",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "ui/assets/images/About.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ui\\assets\\images\\About.png"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\images\\about-left-image.jpg",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -25133,6 +25114,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ui\\assets\\images\\about-us-page-heading.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\images\\About.png",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "ui/assets/images/About.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ui\\assets\\images\\About.png"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\images\\Adsız.png",
@@ -26123,25 +26123,6 @@
       "OriginalItemSpec": "wwwroot\\ui\\assets\\js\\isotope.js"
     },
     {
-      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\js\\jquery.counterup.min.js",
-      "SourceId": "eshop_MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
-      "BasePath": "_content/eshop_MVC",
-      "RelativePath": "ui/assets/js/jquery.counterup.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ui\\assets\\js\\jquery.counterup.min.js"
-    },
-    {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\js\\jquery-2.1.0.min.js",
       "SourceId": "eshop_MVC",
       "SourceType": "Discovered",
@@ -26159,6 +26140,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ui\\assets\\js\\jquery-2.1.0.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\js\\jquery.counterup.min.js",
+      "SourceId": "eshop_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\",
+      "BasePath": "_content/eshop_MVC",
+      "RelativePath": "ui/assets/js/jquery.counterup.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ui\\assets\\js\\jquery.counterup.min.js"
     },
     {
       "Identity": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop MVC\\Yeni MVC\\NEW\\Frontend\\eshop_MVC\\wwwroot\\ui\\assets\\js\\lightbox.js",
