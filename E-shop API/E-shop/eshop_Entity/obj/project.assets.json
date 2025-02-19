@@ -839,11 +839,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj",
       "projectName": "eshop_Entity",
-      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Entity\\eshop_Entity.csproj",
       "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Entity\\obj\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -861,8 +861,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
-              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj"
+            "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
+              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj"
             }
           }
         }

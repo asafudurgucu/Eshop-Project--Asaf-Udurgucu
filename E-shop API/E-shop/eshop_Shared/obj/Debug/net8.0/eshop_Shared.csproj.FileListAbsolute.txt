@@ -56,3 +56,15 @@ C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-sho
 C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.pdb
 C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\ref\eshop_Shared.dll
 C:\Users\Casper\Documents\GitHub\E-Shop-Project\Projet-MVC-APİ\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.sourcelink.json
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\bin\Debug\net8.0\eshop_Shared.deps.json
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\bin\Debug\net8.0\eshop_Shared.dll
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\bin\Debug\net8.0\eshop_Shared.pdb
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.AssemblyInfoInputs.cache
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.AssemblyInfo.cs
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.csproj.CoreCompileInputs.cache
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.sourcelink.json
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.dll
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\refint\eshop_Shared.dll
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\eshop_Shared.pdb
+C:\Users\Casper\Documents\GitHub\Eshop-Project--Asaf-Udurgucu\E-shop API\E-shop\eshop_Shared\obj\Debug\net8.0\ref\eshop_Shared.dll

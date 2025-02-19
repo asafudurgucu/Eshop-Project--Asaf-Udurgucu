@@ -1,8 +1,10 @@
 ﻿@model IEnumerable<OrderModel>
 @using eshop_MVC.Helpers
-<br />
-<br />
 
+<br />
+<br />
+<br />
+<br />
 <div class="container">
     <h1 class="text-center my-4 mt-5 text-primary">Tüm Siparişleriniz</h1>
     <div class="row justify-content-center mb-4">
@@ -18,35 +20,37 @@
         </div>
     </div>
 
-    <table class="table table-striped table-hover table-bordered shadow-sm">
-        <thead class="table-dark">
-            <tr>
-                <th scope="col">Sipariş ID</th>
-                <th scope="col">Toplam Fiyat</th>
-                <th scope="col">Tarih</th>
-                <th scope="col">Durum</th>
-                <th scope="col">Detaylar</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var order in Model)
-            {
+    <div class="table-responsive">
+        <table class="table table-striped table-hover table-bordered shadow-sm">
+            <thead class="table-dark">
                 <tr>
-                    <td>@order.Id</td>
-                    <td>@order.TotalAmount.ToString("C")</td>
-                    <td>@order.CreatedDate.ToShortDateString()</td>
-                    <td>
-                        <span class="badge @GetStatusBadge(order.OrderStatus)">@GetStatusText(order.OrderStatus)</span>
-                    </td>
-                    <td>
-                        <a href="/Order/Details/@order.Id" class="btn btn-info btn-sm shadow-sm hover-shadow-lg">
-                            <i class="bi bi-eye"></i> Detaylar
-                        </a>
-                    </td>
+                    <th scope="col">Sipariş ID</th>
+                    <th scope="col">Toplam Fiyat</th>
+                    <th scope="col">Tarih</th>
+                    <th scope="col">Durum</th>
+                    <th scope="col">Detaylar</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <td data-label="Sipariş ID">@order.Id</td>
+                        <td data-label="Toplam Fiyat">@order.TotalAmount.ToString("C")</td>
+                        <td data-label="Tarih">@order.CreatedDate.ToShortDateString()</td>
+                        <td data-label="Durum">
+                            <span class="badge @GetStatusBadge(order.OrderStatus)">@GetStatusText(order.OrderStatus)</span>
+                        </td>
+                        <td data-label="Detaylar">
+                            <a href="/Order/Details/@order.Id" class="btn btn-info btn-sm shadow-sm hover-shadow-lg">
+                                <i class="bi bi-eye"></i> Detaylar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
 <br />
 <br />
@@ -58,7 +62,6 @@
 <br />
 <br />
 <br />
-
 
 @functions {
     private string GetStatusBadge(OrderStatus status)
@@ -118,12 +121,113 @@
         }
 
     .container {
-        max-width: 1200px; /* Sayfa genişliğini sınırlama */
+        max-width: 1200px;
         margin: 0 auto;
     }
 
     .row.justify-content-center {
         display: flex;
         justify-content: center;
+    }
+
+    /* Mobil cihazlar için stil düzenlemeleri */
+    @@media (max-width: 768px) {
+        .container h1 {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
+        .row.justify-content-center {
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .row.justify-content-center .col-auto {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+        .btn {
+            width: 100%;
+            font-size: 14px;
+            padding: 12px;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .table {
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+            .table th, .table td {
+                padding: 8px;
+            }
+
+        .badge {
+            font-size: 12px;
+            padding: 5px 8px;
+        }
+        /* Tabloyu mobilde dikey olarak gösterme */
+        .table thead {
+            display: none;
+        }
+
+        .table, .table tbody, .table tr, .table td {
+            display: block;
+            width: 100%;
+        }
+
+            .table tr {
+                margin-bottom: 15px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 10px;
+            }
+
+            .table td {
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+                border-bottom: 1px solid #ddd;
+            }
+
+                .table td::before {
+                    content: attr(data-label);
+                    position: absolute;
+                    left: 10px;
+                    width: 50%;
+                    padding-right: 15px;
+                    text-align: left;
+                    font-weight: bold;
+                }
+
+                .table td:last-child {
+                    border-bottom: none;
+                }
+    }
+
+    @@media (max-width: 480px) {
+        .container h1 {
+            font-size: 18px;
+        }
+
+        .btn {
+            font-size: 12px;
+            padding: 10px;
+        }
+
+        .table {
+            font-size: 12px;
+        }
+
+        .badge {
+            font-size: 10px;
+            padding: 4px 6px;
+        }
     }
 </style>

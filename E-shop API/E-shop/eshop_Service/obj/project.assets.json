@@ -2982,11 +2982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj",
+      "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj",
       "projectName": "eshop_Service",
-      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj",
+      "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj",
       "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\obj\\",
+      "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3004,11 +3004,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj": {
-              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj"
+            "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj": {
+              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Data\\eshop_Data.csproj"
             },
-            "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
-              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj"
+            "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
+              "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj"
             }
           }
         }

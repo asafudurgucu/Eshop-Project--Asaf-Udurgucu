@@ -92,3 +92,100 @@
         };
     }
 }
+<style>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Mobil cihazlar için stil düzenlemeleri */
+    @@media (max-width: 768px) {
+        .container h1 {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
+        .table th, .table td {
+            font-size: 12px;
+            padding: 8px;
+        }
+
+        .badge {
+            font-size: 12px;
+            padding: 5px 8px;
+        }
+
+        .btn {
+            font-size: 14px;
+            padding: 12px;
+            width: 100%;
+        }
+
+        /* Tabloyu mobilde düzenle */
+        .table, .table tbody, .table tr, .table td {
+            display: table;
+            width: 100%;
+        }
+
+        .table thead {
+            display: table-header-group;
+        }
+
+        .table tr {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .table td {
+            text-align: right;
+            padding-left: 50%;
+            position: relative;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table td::before {
+            content: attr(data-label);
+            position: absolute;
+            left: 10px;
+            width: 50%;
+            padding-right: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .table td:last-child {
+            border-bottom: none;
+        }
+    }
+
+    @@media (max-width: 480px) {
+        .container h1 {
+            font-size: 18px;
+        }
+
+        .btn {
+            font-size: 12px;
+            padding: 10px;
+        }
+
+        .table {
+            font-size: 12px;
+        }
+
+        .badge {
+            font-size: 10px;
+            padding: 4px 6px;
+        }
+    }
+</style>

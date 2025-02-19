@@ -121,3 +121,68 @@
     </div>
 </div>
 <!-- ***** Subscribe Area Ends ***** -->
+
+<style>
+    /* Genel Stiller */
+    .contact-page-heading {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        min-height: 300px; /* Mobilde daha küçük yap */
+    }
+
+    .contact-us, .subscribe {
+        padding: 30px 15px; /* Mobilde kenar boşluklarını artır */
+    }
+
+    /* Form Alanı */
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Buton */
+    .main-dark-button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+    @@media (max-width: 768px) {
+    .contact-page-heading {
+        display: none !important; /* Mobilde banner'ı tamamen gizle */
+    }
+
+    .contact-us, .subscribe {
+        padding: 20px 10px; /* Kenar boşluklarını ayarla */
+    }
+
+    .contact-us .row, .subscribe .row {
+        flex-direction: column;
+    }
+
+    .col-lg-6, .col-lg-5, .col-lg-4, .col-6 {
+        width: 100%;
+    }
+
+    .section-heading h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .subscribe form {
+        text-align: center;
+    }
+
+    .subscribe form .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .subscribe form .col-lg-2 {
+        width: 100%;
+    }
+}
+
+</style>

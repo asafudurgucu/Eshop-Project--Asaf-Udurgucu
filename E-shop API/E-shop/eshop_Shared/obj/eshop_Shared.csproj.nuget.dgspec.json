@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {}
+    "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
+    "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj",
         "projectName": "eshop_Shared",
-        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj",
+        "projectPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\eshop_Shared.csproj",
         "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Shared\\obj\\",
+        "outputPath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",

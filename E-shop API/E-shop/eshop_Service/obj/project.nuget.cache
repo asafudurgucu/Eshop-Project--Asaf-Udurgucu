@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4BzkR4TV25o=",
+  "dgSpecHash": "EYuvB9wd6CU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Casper\\Documents\\GitHub\\E-Shop-Project\\Projet-MVC-APİ\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj",
+  "projectFilePath": "C:\\Users\\Casper\\Documents\\GitHub\\Eshop-Project--Asaf-Udurgucu\\E-shop API\\E-shop\\eshop_Service\\eshop_Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Casper\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Casper\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

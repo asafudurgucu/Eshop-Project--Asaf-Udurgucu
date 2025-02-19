@@ -54,6 +54,69 @@
     input[type="number"] {
         width: 80px;
     }
+
+    
+    @@media (max-width: 768px) {
+        .table thead {
+            display: none;
+        }
+
+        .table, .table tbody, .table tr, .table td {
+            display: block;
+            width: 100%;
+        }
+
+        .table tr {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .table td {
+            text-align: right;
+            padding-left: 50%;
+            position: relative;
+        }
+
+        .table td::before {
+            content: attr(data-label);
+            position: absolute;
+            left: 10px;
+            width: 50%;
+            padding-right: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .product-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        input[type="number"] {
+            width: 100%;
+        }
+
+        .cart-container {
+            padding: 15px;
+        }
+
+        .total-section {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .d-flex.justify-content-between {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
 </style>
 <br />
 <br />
@@ -62,7 +125,6 @@
 <br />
 <br />
 <br />
-
 
 <div class="container">
     @if (Model.BasketItems != null && Model.BasketItems.Any())
@@ -74,35 +136,34 @@
                 <thead class="table-dark">
                     <tr>
                         <th scope="col">Görsel</th>
-                        <th scope="col">&#220;rün Adı</th>
+                        <th scope="col">Ürün Adı</th>
                         <th scope="col">Miktar</th>
                         <th scope="col">Birim Fiyat</th>
                         <th scope="col">Toplam Fiyat</th>
-                        <th scope="col">&#304;şlem</th>
+                        <th scope="col">İşlem</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model.BasketItems)
                     {
                         <tr>
-                            <td>
+                            <td data-label="Görsel">
                                 <img src="http://localhost:5051/@item.Product.ImageUrl" alt="@item.Product.Name" class="product-img" />
                             </td>
-                            <td>@item.Product.Name</td>
-                            <td>
+                            <td data-label="Ürün Adı">@item.Product.Name</td>
+                            <td data-label="Miktar">
                                 <form asp-action="UpdateQuantity" method="post">
                                     <input type="hidden" name="basketItemId" value="@item.Id" />
                                     <input type="number" name="quantity" class="form-control" value="@item.Quantity" min="1" onchange="this.form.submit()" />
                                 </form>
                             </td>
-                            <td>@($"{item.Product.Price:C2}")</td>
-                            <td>@($"{item.Product.Price * item.Quantity:C2}")</td>
-                            <td>
+                            <td data-label="Birim Fiyat">@($"{item.Product.Price:C2}")</td>
+                            <td data-label="Toplam Fiyat">@($"{item.Product.Price * item.Quantity:C2}")</td>
+                            <td data-label="İşlem">
                                 <form asp-area="" asp-controller="Basket" asp-action="RemoveFromBasket" method="post" class="d-inline">
                                     <input type="hidden" name="basketItemId" value="@item.Id" />
                                     <button type="submit" class="btn btn-danger btn-sm">Sil</button>
                                 </form>
-
                             </td>
                         </tr>
                     }
@@ -152,7 +213,6 @@
 <br />
 <br />
 <br />
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/ui/assets/js/scripts.js"></script>
