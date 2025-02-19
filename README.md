@@ -17,7 +17,7 @@ Bu proje, **Asaf Üdürgücü** tarafından geliştirilmiş modern bir e-ticaret
 Admin paneline erişmek için şu kullanıcı bilgilerini kullanabilirsiniz (Sadece `/admin` yolunu yazmanız yeterli olacaktır):
 
 - **E-posta**: adminuser@gmail.com
-- **Şifre**: Qwe123.
+- **Şifre**: Qwe123.,
 
 ## Kullanılan Teknolojiler ve Mimari
 
